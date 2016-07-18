@@ -1,3 +1,3 @@
-# victorwj.github.io
-Personal Website
-Victor Ongkowijaya
+# Personal Website
+- Victor Ongkowijaya
+- victorwj.github.io
