@@ -1,31 +1,74 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+/***** ID *****/
+
 #home-title {
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
 	font-size: 3vw;
 	line-height: 1;
+	text-align: center;
+
 }
 
 #home-tabs {
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
 	font-size: 1vw;
 	padding-bottom: 2.5%;
+	text-align: center;
 }
 
-.home-projects-left {
+/***** CLASSES *****/
+
+.projects-left {
 	display: inline-block;
 	margin: left;
-	width:40%;
 	padding-left: 9%;
 	padding-right: 1%;
-	padding-bottom: 5%;
+	width: 40%;
 }
 
-.home-projects-right {
+.projects-right {
 	display: inline-block;
 	margin: right;
 	width:40%;
-	padding-bottom: 5%;
+}
+
+.projects-text-title-left {
+	clear: left;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+	margin-left: 24%;
+}
+
+.projects-text-title-right {
+	clear: right;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+	margin-left: 31%;
+}
+
+.projects-text-body-left {
+	clear: left;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+	margin-left: 14%;
+	max-width: 30%;
+	padding-bottom: 2%;
+	text-align:center;
+}
+
+
+
+.projects-text-body-right {
+	clear: right;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1vw;
+	margin-left: 11%;
+	max-width: 30%;
+	padding-bottom: 2%;
+	text-align:center;
 }
