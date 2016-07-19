@@ -1,5 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+p {
+	margin: 0;
+}
+
+h1 {
+	font-weight: normal;
+}
+
 /***** ID *****/
 
 #home-title {
@@ -54,9 +62,9 @@
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
+	margin-bottom: 2%;
 	margin-left: 14%;
 	max-width: 30%;
-	padding-bottom: 2%;
 	text-align:center;
 }
 
@@ -67,8 +75,8 @@
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
+	margin-bottom: 2%;
 	margin-left: 11%;
 	max-width: 30%;
-	padding-bottom: 2%;
 	text-align:center;
 }
