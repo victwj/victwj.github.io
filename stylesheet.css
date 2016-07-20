@@ -1,25 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
-html, body {
-	margin: 0;
-	padding: 0;
-}
-
-a {
+a, a:visited {
+	color: black;
 	text-decoration: none;
-	color: black;
-}
-
-a:visited {
-	color: black;
 }
 
 a:hover {
-	color: black;
-}
-
-p {
-	margin: 0;
+	color: #bfbfbf;
 }
 
 h1 {
@@ -27,44 +14,48 @@ h1 {
 }
 
 /***** ID *****/
-#header-title {
-	background-color: red;
-	border: 2px solid black;
-}
-
-#header-tabs {
-	background-color: blue;
-	border: 2px solid black;
-}
 
 #home-title {
+	background-color: #e6e6e6;
+	color: #4d4d4d;
 	font-family: 'Raleway', sans-serif;
 	font-size: 3vw;
-	line-height: 1;
+	line-height: 0.8;
+	padding: 1.5%;
 	text-align: center;
 }
 
 #home-tabs {
+	background-color: #808080;
+	color: black;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
-	padding-bottom: 2.5%;
+	margin-bottom: 1.5%;
+	padding: 1%;
 	text-align: center;
+}
+
+#current-tab {
+	color: #ffffff;
 }
 
 /***** CLASSES *****/
 
+
 .projects-left {
 	display: inline-block;
-	margin: left;
+	margin-bottom: 1%;
 	margin-left: 9%;
+	margin: left;
 	width: 40%;
 }
 
 .projects-right {
 	display: inline-block;
+	margin-bottom: 1%;
+	margin-left: 1.5%;
 	margin: right;
-	margin-left: 1%;
-	width:40%;
+	width: 40%;
 }
 
 .projects-text-title-left {
@@ -72,6 +63,7 @@ h1 {
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
+	margin-bottom: 0.5%;
 	margin-left: 24%;
 }
 
@@ -80,6 +72,7 @@ h1 {
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
+	margin-bottom: 0.5%;
 	margin-left: 31%;
 }
 
@@ -88,7 +81,7 @@ h1 {
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
-	margin-bottom: 2%;
+	margin-bottom: 1.5%;
 	margin-left: 14%;
 	max-width: 30%;
 	text-align:center;
@@ -99,7 +92,7 @@ h1 {
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
-	margin-bottom: 2%;
+	margin-bottom: 1.5%;
 	margin-left: 11%;
 	max-width: 30%;
 	text-align:center;
