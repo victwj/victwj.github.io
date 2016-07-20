@@ -1,5 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
 p {
 	margin: 0;
 }
@@ -29,14 +42,14 @@ h1 {
 .projects-left {
 	display: inline-block;
 	margin: left;
-	padding-left: 9%;
-	padding-right: 1%;
+	margin-left: 9%;
 	width: 40%;
 }
 
 .projects-right {
 	display: inline-block;
 	margin: right;
+	margin-left: 1%;
 	width:40%;
 }
 
