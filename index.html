@@ -13,53 +13,83 @@ victor.ongkowijaya@hotmail.com
 		<link type="text/css" rel="stylesheet" href="reset.css" />
 		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		<title> Victor Ongkowijaya | Projects </title>
+		<title> Victor Ongkowijaya </title>
 	</head>
 
 	<body>
 
-		<!-- TITLE & NAME -->
-		<div id="home-title">
-			<h1> 
-				VICTOR ONGKOWIJAYA <br>
-				<span style="font-size:2vw"> <em> PORTFOLIO </em> </span>
-			</h1>
-		</div>
+		<!-- HEADER -->
 
-		<!-- PROJECTS -->
-		<div id="home-tabs"> 
-			<p> <a href="index.html" id="current-tab"> PROJECTS</a> - <a href="about.html"> ABOUT</a> - RESUME</p>
-		</div>
+		<!-- Header has a parent div called "header-container" and two children divs called "header-title" and "header-tabs-container." Both children divs take up 50% of the page width. 
+		The div "header-tabs" has children divs of class "header-tab." These divs individually contain the the tab buttons.-->
 
+		<div id="header-container">
+			<div id="header-title">
+				<a href="index.html"> <h1> VICTOR ONGKOWIJAYA </h1> </a>
+			</div
+			><div id="header-tabs-container"> <!-- inline-block respects whitespace. This leads to a small horizontal gap between the two children divs. To make them stand against each other, close the first div on the same line as the second child div starts. -->
+				<div class="header-tab">
+					<p> <a href="index.html" class="header-tabs" id="current-tab"> PROJECTS</a> </p>
+				</div>
+				<div class="header-tab">
+					<p> <a href="about.html" class="header-tabs"> ABOUT </a> </p>
+				</div>
+				<div class="header-tab">
+					<p> <a href="index.html" class="header-tabs"> RESUME</p> 
+				</div>
+			</div>
+		</div>
 		<!-- ROW 1 -->
-		<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-left"/>
-		<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-right"/>
+		<div id="content">
+			<div class="projects-left-container">
+				<img src="images/cooleans.png" alt="Coolean Course Browser">
+			</div
 
-		<h1 class="projects-text-title-left"> DESCRIPTION TITLE 1 </h1>
-		<h1 class="projects-text-title-right"> DESCRIPTION TITLE 2 </h1> 
+			><div class="projects-right-container">
+				<img src="images/cooleans.png" alt="Coolean Course Browser">
+			</div
+			><div class="projects-left-container">
+				<img src="images/cooleans.png" alt="Coolean Course Browser">
+			</div
+			><div class="projects-right-container">
+				<img src="images/cooleans.png" alt="Coolean Course Browser">
+			</div>
+			<div class="projects-left-container">
+				<img src="images/cooleans.png" alt="Coolean Course Browser">
+			</div
+			><div class="projects-right-container">
+				<img src="images/cooleans.png" alt="Coolean Course Browser">
+			</div>
 
-		<p class="projects-text-body-left"> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
-		</p>
-		<p class="projects-text-body-right"> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel.
-		</p>
+			<!--
+			<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-left"/>
+			<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-right"/>
 
+			<h1 class="projects-text-title-left"> DESCRIPTION TITLE 1 </h1>
+			<h1 class="projects-text-title-right"> DESCRIPTION TITLE 2 </h1> 
 
-		<!-- ROW 2 --> 
-		<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-left"/>
-		<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-right"/>
+			<p class="projects-text-body-left"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
+			</p>
+			<p class="projects-text-body-right"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel.
+			</p>
+			-->
+			<!--
+			<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-left"/>
+			<img src="images/cooleans.png" alt="Coolean Course Browser" class="projects-right"/>
 
-		<h1 class="projects-text-title-left"> DESCRIPTION TITLE 3 </h1> 
-		<h1 class="projects-text-title-right"> DESCRIPTION TITLE 4 </h1> 
+			<h1 class="projects-text-title-left"> DESCRIPTION TITLE 3 </h1> 
+			<h1 class="projects-text-title-right"> DESCRIPTION TITLE 4 </h1> 
 
-		<p class="projects-text-body-left"> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
-		</p>
-		<p class="projects-text-body-right"> 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
-		</p>
-
+			<p class="projects-text-body-left"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
+			</p>
+			<p class="projects-text-body-right"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
+			</p>
+			-->
+		</div>
 		<hr>
 		<p id="footer"> 
 			Made by Victor Ongkowijaya. <br>
