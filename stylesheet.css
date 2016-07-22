@@ -26,6 +26,11 @@ img {
 	display: block;
 }
 
+select {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+
 /* ------ HEADER ------ */
 
 #header-container {
@@ -42,7 +47,7 @@ img {
 		color: #4d4d4d;
 		display: inline-block;
 		font-family: 'Raleway', sans-serif;
-		font-size: 2em;
+		font-size: 2vw;
 		margin-left: 7.5%;
 		vertical-align: middle;
 		width: 42.5%;
@@ -52,30 +57,33 @@ img {
 		color: #4d4d4d;
 		display: inline-block;
 		font-family: 'Raleway', sans-serif;
-		font-size: 1em;
+		font-size: 1vw;
 		margin-right: 7.5%;
 		text-align: right;
 		vertical-align: middle;
 		width: 42.5%;
 	}
 
-		.header-tab {
-			display: inline-block;		
+		#header-tabs-container a, a:visited {
+			color: #4d4d4d;
+		}
 
+		#header-tabs-container a:hover {
+			color: #4d4d4d;
+			border-bottom: 1px solid #4d4d4d; /* Replace underline for better text-line spacing */
+		}
+
+		#header-tabs-container ul li {
+			float:right;
 			margin-left: 10%;
 		}
 
-			.header-tab a, a:visited {
-				color: #4d4d4d;
-			}
-
-			.header-tab a:hover {
-				color: #4d4d4d;
-				border-bottom: 1px solid #4d4d4d; /* Replace underline for better text-line spacing */
-			}
+		#header-tabs-container select {
+			display:none;
+		}
 
 		#current-tab {
-				border-bottom: 1px solid #4d4d4d; /* Replace underline for better text-line spacing */
+			border-bottom: 1px solid #4d4d4d; /* Replace underline for better text-line spacing */
 		}
 
 /* ------ CONTENT ------ */
@@ -144,7 +152,7 @@ img {
 	.hovereffect h2 {
 		color: #4d4d4d;
 		font-family: 'Raleway', sans-serif;
-		font-size: 1.25em;
+		font-size: 1.25vw;
 		padding: 7.5%;
 		position: relative;
 		text-align: center;
@@ -158,6 +166,7 @@ img {
 	.hovereffect a, .hovereffect p {
 		color: #4d4d4d;
 		font-family: 'Raleway', sans-serif;
+		font-size: 1vw;
 		-webkit-transform: translate3d(0,100%,0);
 		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 		filter: alpha(opacity=0);
@@ -177,10 +186,44 @@ img {
 #footer {
 	color: #808080;
 	font-family: 'Raleway', sans-serif;
-	font-size: 0.75em;
+	font-size: 0.75vw;
 	margin-bottom: 1%;
 	text-align: center;
 }
 
 /* ------ OTHERS ------ */
+
+@media (max-width: 960px) {
+	#header-title {
+		margin-left: 5%;
+		width: 45%;
+	}
+	#header-tabs-container {
+		margin-right: 5%;
+		width: 45%;
+	}
+	#header-tabs-container ul { 
+		display: none; 
+	}
+	#header-tabs-container select { 
+		display: inline-block; 
+	}
+	.projects-left-container { 
+		margin: 0% 5% 2.5% 5%;
+		width: 90%;
+	}
+	.projects-right-container { 
+		margin: 0% 5% 2.5% 5%;
+		width: 90%;
+	}	
+	.hovereffect p, .hovereffect h2 {
+		font-size: 2vw;
+	}	
+	#content {
+		padding-top: 10%;
+	}
+	#footer {
+		font-size: 1.5vw;
+	}
+}
 

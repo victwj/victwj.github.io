@@ -22,7 +22,7 @@ victor.ongkowijaya@hotmail.com
 		<title> Victor Ongkowijaya </title>
 		<link type="text/css" rel="stylesheet" href="reset.css" />
 		<link type="text/css" rel="stylesheet" href="stylesheet.css" />		
-		<link rel="stylesheet" media="handheld, only screen and (max-device-width: 415px)" href="mobile.css"> <!-- ORDER matters, render mobile first so it overrides basic stylesheet when resolution is detected. -->
+		<!-- <link rel="stylesheet" media="handheld, only screen and (max-device-width: 415px)" href="mobile.css"> --> <!-- ORDER matters, render mobile first so it overrides basic stylesheet when resolution is detected. -->
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 	</head>
 
@@ -38,15 +38,16 @@ victor.ongkowijaya@hotmail.com
 				<a href="index.html"> <h1> VICTOR ONGKOWIJAYA </h1> </a>
 			</div
 			><div id="header-tabs-container"> <!-- inline-block respects whitespace. This leads to a small horizontal gap between the two children divs. To make them stand against each other, close the first div on the same line as the second child div starts. -->
-				<div class="header-tab">
-					<p> <a href="index.html" class="header-tabs" id="current-tab"> PROJECTS</a> </p>
-				</div>
-				<div class="header-tab">
-					<p> <a href="about.html" class="header-tabs"> ABOUT </a> </p>
-				</div>
-				<div class="header-tab">
-					<p> <a href="index.html" class="header-tabs"> RESUME</p> 
-				</div>
+				<ul> 
+					<li><a href="index.html">RESUME</a></li> 
+					<li><a href="about.html">ABOUT</a></li> 
+					<li><a href="index.html" id="current-tab">PROJECTS</a></li> 
+				</ul>
+				<select> 
+					<option value="" selected="selected">PROJECTS</option> 
+					<option value="about.html">ABOUT</option> 
+					<option value="index.html">RESUME</option> 
+				</select> 
 			</div>
 		</div>
 
