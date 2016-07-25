@@ -14,16 +14,15 @@ h1 {
 hr {
 	margin-left: 7.5%;
 	margin-top: 2%;
-	width: 85%;
 	size: 1px;
-	color: white;
+	width: 85%;
 }
 
 img {
 	/* To make images fit perfectly into containing div. */
-	max-width: 100%;
-	max-height: 100%;
 	display: block;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 select {
@@ -36,10 +35,10 @@ select {
 #header-container {
 	/* #e6e6e6 */
 	background-color: #e6e6e6;
+	max-height: 6%;
 	padding: 1.5% 0 1.5% 0 ;
 	position: fixed;
 	width: 100%;
-	max-height: 6%;
 	z-index: 1;
 }
 
@@ -69,8 +68,8 @@ select {
 		}
 
 		#header-tabs-container a:hover {
-			color: #4d4d4d;
 			border-bottom: 1px solid #4d4d4d; /* Replace underline for better text-line spacing */
+			color: #4d4d4d;
 		}
 
 		#header-tabs-container ul li {
@@ -94,11 +93,11 @@ select {
 }
 	/* ------ PROJECTS PAGE ------ */
 	.projects-left-container {
-		position: relative;
 		display: inline-block;
 		margin: 0 0.5% 1% 7.5%;
-		width: 42%;
 		overflow:hidden;
+		position: relative;
+		width: 42%;
 	}
 
 	.projects-right-container {
@@ -116,8 +115,8 @@ select {
 }
 
 	.hovereffect .overlay {
-		border-bottom: 1px solid #4d4d4d;
-		border-top: 1px solid #4d4d4d;
+		border-bottom: 1px solid #808080;
+		border-top: 1px solid #808080;
 		height: 80%;
 		left: 10%;
 		overflow: hidden;
@@ -185,32 +184,36 @@ select {
 	/* ------ ABOUT PAGE ------ */
 
 	.about-me {
+		border-bottom: 1px solid #808080;
+		border-top: 1px solid  #808080;
 		color: #4d4d4d;
-		margin: 2% 7.5% 2% 7.5%;
-		font-size: 1vw;
 		font-family: 'Raleway', sans-serif;
-		border-top: 1px solid  #4d4d4d;
-		border-bottom: 1px solid #4d4d4d;
+		font-size: 1vw;
+		margin: 2% 7.5% 2% 7.5%;
 		padding: 2.5%;
 	}
 
 	.contact-details-container {
 		color: #4d4d4d;
-		margin: 0 7.5% 2% 7.5%;
-		font-size: 1vw;
 		font-family: 'Raleway', sans-serif;
+		font-size: 1vw;
 		line-height: 1.5;
+		margin: 0 7.5% 2% 7.5%;
 		padding: 0 2.5 0 2.5%;
 	}
 
 /* ------ FOOTER ------ */
 
 #footer {
+	border-top: 1px solid #808080;
 	color: #808080;
 	font-family: 'Raleway', sans-serif;
 	font-size: 0.75vw;
 	margin-bottom: 1%;
+	margin: 2% 7.5% 0 7.5%;
+	padding: 1%;
 	text-align: center;
+	width: 85%;
 }
 
 /* ------ OTHERS ------ */
