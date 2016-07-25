@@ -88,10 +88,11 @@ select {
 
 /* ------ CONTENT ------ */
 
+
 #content {
 	padding-top: 6%;
 }
-
+	/* ------ PROJECTS PAGE ------ */
 	.projects-left-container {
 		position: relative;
 		display: inline-block;
@@ -115,8 +116,8 @@ select {
 }
 
 	.hovereffect .overlay {
-		border-bottom: 1px solid #808080;
-		border-top: 1px solid #808080;
+		border-bottom: 1px solid #4d4d4d;
+		border-top: 1px solid #4d4d4d;
 		height: 80%;
 		left: 10%;
 		overflow: hidden;
@@ -179,6 +180,27 @@ select {
 		filter: alpha(opacity=100);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
+	}
+
+	/* ------ ABOUT PAGE ------ */
+
+	.about-me {
+		color: #4d4d4d;
+		margin: 2% 7.5% 2% 7.5%;
+		font-size: 1vw;
+		font-family: 'Raleway', sans-serif;
+		border-top: 1px solid  #4d4d4d;
+		border-bottom: 1px solid #4d4d4d;
+		padding: 2.5%;
+	}
+
+	.contact-details-container {
+		color: #4d4d4d;
+		margin: 0 7.5% 2% 7.5%;
+		font-size: 1vw;
+		font-family: 'Raleway', sans-serif;
+		line-height: 1.5;
+		padding: 0 2.5 0 2.5%;
 	}
 
 /* ------ FOOTER ------ */
