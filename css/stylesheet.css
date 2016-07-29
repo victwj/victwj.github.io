@@ -96,15 +96,16 @@ select {
 	/* ------ PROJECTS PAGE ------ */
 	.projects-left-container {
 		display: inline-block;
-		margin: 0 1.5% 3% 10%;
+		margin: 0% 1.5% 3% 10%;
 		overflow: hidden;
 		position: relative;
 		width: 38.5%;
+		height: 20%;
 	}
 
 	.projects-right-container {
 		display: inline-block;
-		margin: 0 10% 3% 1.5%;
+		margin: 0% 10% 3% 1.5%;
 		overflow: hidden;
 		position: relative;
 		width: 38.5%;
@@ -198,7 +199,7 @@ select {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 1vw;
 		line-height: 1.5;
-		margin: 0 10% 3% 10%;
+		margin: 0% 10% 3% 10%;
 		padding: 2.5%;
 	}
 
@@ -207,8 +208,8 @@ select {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 1vw;
 		line-height: 1.5;
-		margin: 0 10% 3% 10%;
-		padding: 0 2.5% 0 2.5%;
+		margin: 0% 10% 3% 10%;
+		padding: 0% 2.5% 0% 2.5%;
 	}
 
 		.plain-title {
@@ -226,15 +227,6 @@ select {
 			margin-bottom: 0.5%;
 		}
 
-	.contact-details-container {
-		color: #4d4d4d;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 1vw;
-		line-height: 1.5;
-		margin: 0 7.5% 2% 7.5%;
-		padding: 0 2.5 0 2.5%;
-	}
-
 /* ------ FOOTER ------ */
 
 #footer {
@@ -243,8 +235,8 @@ select {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.75vw;
 	font-weight: lighter;
-	margin: 0 10% 0 10%;
-	padding: 1% 0 1% 0;
+	margin: 0% 10% 0% 10%;
+	padding: 1% 0% 1% 0%;
 	text-align: center;
 	width: 80%;
 }
@@ -256,32 +248,50 @@ select {
 		margin-left: 5%;
 		width: 45%;
 	}
+
 	#header-tabs-container {
 		margin-right: 5%;
 		width: 45%;
 	}
+
 	#header-tabs-container ul { 
 		display: none; 
 	}
+
 	#header-tabs-container select { 
 		display: inline-block; 
+	}	
+
+	#content {
+		padding-top: 10%;
 	}
+
 	.projects-left-container { 
 		margin: 0% 5% 2.5% 5%;
 		width: 90%;
 	}
+
 	.projects-right-container { 
 		margin: 0% 5% 2.5% 5%;
 		width: 90%;
 	}	
+
 	.hovereffect p, .hovereffect h2 {
-		font-size: 2vw;
+		font-size: 2.5vw;
 	}	
-	#content {
-		padding-top: 10%;
+
+	.plain-container, .border-container {
+		margin-left: 5%;
+		max-width: 90%;
+		margin-right: 5%;
 	}
+
+	.plain-title h2, .plain-content p {
+		font-size: 2.5vw;
+	}
+
 	#footer {
-		font-size: 1.5vw;
+		display: none;
 	}
 }
 
