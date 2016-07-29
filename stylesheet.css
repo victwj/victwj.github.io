@@ -1,4 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+/* Scheme: 
+Light grey background color:  #e6e6e6;
+Dark grey text: #4d4d4d;
+Border color: #808080;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
 
 /* ------ HTML ELEMENTS ------ */
 
@@ -9,13 +18,6 @@ a, a:visited, a:hover {
 
 h1 {
 	font-weight: normal;
-}
-
-hr {
-	margin-left: 7.5%;
-	margin-top: 2%;
-	size: 1px;
-	width: 85%;
 }
 
 img {
@@ -33,9 +35,8 @@ select {
 /* ------ HEADER ------ */
 
 #header-container {
-	/* #e6e6e6 */
 	background-color: #e6e6e6;
-	max-height: 6%;
+	max-height: 5%;
 	padding: 1.5% 0 1.5% 0 ;
 	position: fixed;
 	width: 100%;
@@ -47,9 +48,9 @@ select {
 		display: inline-block;
 		font-family: 'Raleway', sans-serif;
 		font-size: 2vw;
-		margin-left: 7.5%;
+		margin-left: 10%;
 		vertical-align: middle;
-		width: 42.5%;
+		width: 40%;
 	}
 
 	#header-tabs-container {
@@ -57,10 +58,10 @@ select {
 		display: inline-block;
 		font-family: 'Raleway', sans-serif;
 		font-size: 1vw;
-		margin-right: 7.5%;
+		margin-right: 10%;
 		text-align: right;
 		vertical-align: middle;
-		width: 42.5%;
+		width: 40%;
 	}
 
 		#header-tabs-container a, a:visited {
@@ -89,22 +90,26 @@ select {
 
 
 #content {
-	padding-top: 6%;
+	padding-top: 8%;
 }
+
 	/* ------ PROJECTS PAGE ------ */
 	.projects-left-container {
 		display: inline-block;
-		margin: 0 0.5% 1% 7.5%;
-		overflow:hidden;
+		margin: 0 1.5% 3% 10%;
+		overflow: hidden;
 		position: relative;
-		width: 42%;
+		width: 38.5%;
 	}
 
 	.projects-right-container {
 		display: inline-block;
-		margin: 0 7.5% 1% 0.5%;
-		width: 42%;
+		margin: 0 10% 3% 1.5%;
+		overflow: hidden;
+		position: relative;
+		width: 38.5%;
 	}
+
 	.hovereffect {
 		float: left;
 		height: 100%;
@@ -112,7 +117,7 @@ select {
 		position: relative;
 		text-align: center;
 		width: 100%;
-}
+	}
 
 	.hovereffect .overlay {
 		border-bottom: 1px solid #808080;
@@ -151,7 +156,7 @@ select {
 
 	.hovereffect h2 {
 		color: #4d4d4d;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 1.25vw;
 		padding: 7.5%;
 		position: relative;
@@ -165,7 +170,8 @@ select {
 
 	.hovereffect a, .hovereffect p {
 		color: #4d4d4d;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: lighter;
 		font-size: 1vw;
 		-webkit-transform: translate3d(0,100%,0);
 		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -183,19 +189,44 @@ select {
 
 	/* ------ ABOUT PAGE ------ */
 
-	.about-me {
+	.border-container {
 		border-bottom: 1px solid #808080;
 		border-top: 1px solid  #808080;
 		color: #4d4d4d;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 1vw;
-		margin: 2% 7.5% 2% 7.5%;
+		line-height: 1.5;
+		margin: 0 10% 3% 10%;
 		padding: 2.5%;
 	}
 
+	.plain-container {
+		color: #4d4d4d;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1vw;
+		line-height: 1.5;
+		margin: 0 10% 3% 10%;
+		padding: 0 2.5% 0 2.5%;
+	}
+
+		.plain-title {
+			font-size: 1.25vw;
+			margin-bottom: 0.5%;
+		}
+
+		.plain-content {
+			font-weight: lighter;
+			margin-bottom: 0.5%;
+		}
+
+		.bold-content {
+			font-weight: normal;
+			margin-bottom: 0.5%;
+		}
+
 	.contact-details-container {
 		color: #4d4d4d;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 1vw;
 		line-height: 1.5;
 		margin: 0 7.5% 2% 7.5%;
@@ -207,12 +238,13 @@ select {
 #footer {
 	border-top: 1px solid #808080;
 	color: #4d4d4d;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 0.75vw;
-	margin: 2% 7.5% 0 7.5%;
+	font-weight: lighter;
+	margin: 0 10% 0 10%;
 	padding: 1% 0 1% 0;
 	text-align: center;
-	width: 85%;
+	width: 80%;
 }
 
 /* ------ OTHERS ------ */

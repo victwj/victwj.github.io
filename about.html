@@ -1,3 +1,9 @@
+<!-- 
+Personal Website: about.html
+Victor Ongkowijaya
+victor.ongkowijaya@hotmail.com
+ -->
+
 <html class="no-js">
 
 	<head>
@@ -5,12 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta name="author" content="Victor Ongkowijaya"/>
 		<meta name="keywords" content="Victor, Ongkowijaya, Personal, Website, Resume, Portfolio"/>
-		<meta name="description" content="Personal Website & Portfolio of Victor Ongkowijaya."/>
+		<meta name="description" content="Personal Website & Portfolio of Victor Ongkowijaya. Find his works, contacts, and other relevant information here."/>
 		<meta property="og:title" content="Personal Website & Portfolio of Victor Ongkowijaya"/>
 		<meta property="og:type" content="profile"/>
-		<meta property="og:description" content="Personal Website & Portfolio of Victor Ongkowijaya."/>
+		<meta property="og:description" content="Personal Website & Portfolio of Victor Ongkowijaya. Find his works, contacts, and other relevant information here."/>
 		<meta property="og:url" content="https://victorwj.github.io"/>
-		<title> Victor Ongkowijaya </title>
+		<title> Victor Ongkowijaya | About </title>
 		<link type="text/css" rel="stylesheet" href="reset.css" />
 		<link type="text/css" rel="stylesheet" href="stylesheet.css" />		
 		<!-- <link rel="stylesheet" media="handheld, only screen and (max-device-width: 415px)" href="mobile.css"> --> <!-- ORDER matters, render mobile first so it overrides basic stylesheet when resolution is detected. -->
@@ -30,14 +36,12 @@
 			</div
 			><div id="header-tabs-container"> <!-- inline-block respects whitespace. This leads to a small horizontal gap between the two children divs. To make them stand against each other, close the first div on the same line as the second child div starts. -->
 				<ul> 
-					<li><a href="index.html">RESUME</a></li> 
 					<li><a href="about.html" id="current-tab">ABOUT</a></li> 
 					<li><a href="index.html">PROJECTS</a></li> 
 				</ul>
 				<select onchange="location = this.value"> 
 					<option value="index.html" >PROJECTS</option> 
 					<option value="about.html" selected="selected">ABOUT</option> 
-					<option value="index.html">RESUME</option> 
 				</select> 
 			</div>
 		</div>
@@ -45,15 +49,44 @@
 		<!-- CONTENT -->
 
 		<div id="content"> 
-			<div class="about-me">
-				<p> ABOUT ME <br> <br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu massa mi. Aliquam quis mollis lorem, sed elementum dolor. Sed maximus nibh vitae risus finibus, ac condimentum nulla tincidunt. Duis tempor interdum ex. Aenean et molestie tortor. Nunc non euismod diam. Curabitur pellentesque turpis sodales, placerat ipsum in, interdum lectus. Curabitur fringilla hendrerit nisl, eu sodales est dictum vel. 
-				</p>
+			<div class="border-container">
+				<div class="plain-title">
+					<h2> About Me </h2>
+				</div>
+				<div class="plain-content">
+					<p> My name is Victor Ongkowijaya from Jakarta, Indonesia. I'm a current Computer Science student at University of Michigan's College of Engineering, and an aspiring software engineer/tech-entrepreneur/all-around-programmer. <br>
+					All my project codes can be seen in my GitHub, and I would greatly appreciate any suggestions or feedback you may have, no matter how small or big. <br>
+					Don't hesitate to shoot me an email if you need me for anything! </p>
+				</div>
 			</div>
-			<div class="contact-details-container">
-				<p> victor.ongkowijaya@hotmail.com <span style="display:none">ANTI-SPAM-FILLER</span> </p>
-				<p> github.com/victorwj </p>
+			<div class="plain-container">
+				<div class="plain-title">
+					<h2> Contacts </h2>
+				</div>
+				<div class="plain-content">
+					<p> victor.ongkowijaya@hotmail.com <span style="display:none">ANTI-SPAM-FILLER</span> </p>
+					<p> github.com/victorwj </p>
+				</div>
+			</div>
+			<div class="plain-container">
+				<div class="plain-title">
+					<h2> A little about this website. </h2>
+				</div>
+				<div class="plain-content">
+					<p> I made this website with a mission -- to truly understand and learn HTML/CSS. As such, I designed a minimalist theme and made this website from scratch using purely HTML and CSS. I also refrained from using any "pre-made" code templates such as Bootstrap or anything found online. All the code on this website are written line-by-line in the hopes that it will somehow help make me a better programmer. The driving idea is not to reinvent the wheel, but to understand how it works. <br>
+					I also attempted responsive web design through viewports, em, percentages, media queries, and some other elements. Try resizing this site on your browser window, or view it on a mobile device! It certainly isn't much at all, and my projects page look awfully empty, but maybe it will be filled up before I get too old. If there are any issues or any possible improvements for the site, please email me!  </p>
+				</div>
 			</div>
 		</div>
+
+		<!-- FOOTER -->
+
+		<div id="footer">		
+			<p>
+				Made by Victor Ongkowijaya. <br>
+				2016 Jakarta, Indonesia. <br> 
+			</p>
+		</div>
+		
 	</body>
 </html>
