@@ -158,6 +158,7 @@ select {
 		font-weight: lighter;
 	}
 
+	/* Hover effects only when screen is large enough. */
 	@media (min-width: 961px) {
 		.hovereffect:hover .overlay {
 			opacity: 1;
