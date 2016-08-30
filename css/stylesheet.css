@@ -94,6 +94,15 @@ select {
 }
 
 	/* ------ PROJECTS PAGE ------ */
+
+	/* 
+	Note about hover effects: 
+	To make it responsive, media queries are used. 
+	There is a projects-left-container and projects-right-container to wrap class hovereffect and overlay.
+	.hovereffect contains image, .overlay contains text. .overlay is hidden, and appears on hover.
+	All hovereffects are only avalable for screen res 961px and above, and on below resolutions are disabled completely.
+	Resolutions below 961px treated as mobile, with no animations and static .hovereffect and .overlay.
+	*/;
 	.projects-left-container {
 		display: inline-block;
 		margin: 0% 1.5% 3% 10%;
