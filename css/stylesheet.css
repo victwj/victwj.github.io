@@ -232,6 +232,19 @@ select {
 			margin-bottom: 0.5%;
 		}
 
+    #portrait {
+        display: inline-block;
+        margin-left: 3%;
+        vertical-align: top;
+        width: 24%;
+    }
+
+    #portrait-text {
+        display: inline-block;
+        vertical-align: top;
+        width: 73%;
+    }
+
 /* ------ FOOTER ------ */
 
 #footer {
@@ -305,6 +318,15 @@ select {
 	.plain-title, .plain-content {
 		font-size: 2.5vw;
 	}
+
+    /* ABOUT */
+    #portrait {
+        display: none;
+    }
+
+    #portrait-text {
+        width: 100%;
+    }
 
 	/* FOOTER */
 	#footer {
