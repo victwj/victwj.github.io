@@ -1,138 +1,124 @@
 <!DOCTYPE html>
 
-<!-- 
-Author      : Victor Ongkowijaya
-Date        : 15 July 2016
-Project     : Personal Website
-Filename    : index.html
- -->
+<!--
+  Author      : Victor Ongkowijaya
+  Site        : victorwj.github.io
+  Project     : Personal Website
+  Date        : 15 July 2016
+-->
 
 <html class="no-js">
-
-	<head>
-		<meta charset="utf-8" /> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="author" content="Victor Ongkowijaya"/>
-		<meta name="keywords" content="Victor, Ongkowijaya, Projects, Personal, Website, Resume, Portfolio"/>
-		<meta name="description" content="Personal website & portfolio of Victor Ongkowijaya. Find his projects, contact details, and other relevant information here."/>
-		<meta property="og:title" content="Victor Ongkowijaya"/>
-		<meta property="og:type" content="profile"/>
-		<meta property="og:description" content="Personal website & portfolio of Victor Ongkowijaya. Find his projects, contact details, and other relevant information here."/>
-		<meta property="og:url" content="https://victorwj.github.io"/>
-		<title>Projects | Victor Ongkowijaya</title>
-		<link type="text/css" rel="stylesheet" href="css/reset.css" />
-		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />		
-		<!-- <link rel="stylesheet" media="handheld, only screen and (max-device-width: 415px)" href="css/mobile.css"> --><!-- ORDER matters, render mobile first so it overrides basic stylesheet when resolution is detected. -->
-		<!-- Mobile.css no longer used, kept for future reference. -->
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	</head>
-
-	<body>
-
-		<!-- HEADER -->
-
-		<!-- Header has a parent div called "header-container" and two children divs called "header-title" and "header-tabs-container." Both children divs take up 50% of the page width. 
-		The div "header-tabs" has children divs of class "header-tab." These divs individually contain the the tab buttons.-->
-
-		<div id="header-container">
-			<div id="header-title">
-				 <h1> <a href="index.html">VICTOR ONGKOWIJAYA</a> </h1> 
-			</div
-			><div id="header-tabs-container"> <!-- inline-block respects whitespace. This leads to a small horizontal gap between the two children divs. To make them stand against each other, close the first div on the same line as the second child div starts. -->
-				<ul> 
-					<li><a href="about.html">ABOUT</a></li> 
-					<li><a href="index.html" id="current-tab">PROJECTS</a></li> 
-				</ul>
-				<select onchange="location = this.value"> 
-					<option value="index.html" selected="selected">PROJECTS</option> 
-					<option value="about.html">ABOUT</option> 
-				</select> 
-			</div>
-		</div>
-
-		<!-- CONTENT -->
-
-		<div id="content">
-			<div class="border-container"> 
-				<h2 class="plain-title"> Hi! Welcome to my website. <h2>
-				<p class="plain-content"> I'm a computer science & engineering student at the University of Michigan, Ann Arbor. Here are some of my projects so far! <br>
-				All my project codes, including this website, are available in my GitHub account. Some repos are made private to avoid violating the university's Honor Code. Email me for access -- more information can be found in the "About" section above. <br>
-				I am working on a separate page for each project with more details, along with the development process and challenges I encountered. Check back soon!
-				</p>
-			</div>
-			<div class="projects-left-container">
-				<a href="https://www.merit.edu/">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/merit.jpg" alt="University of Michigan Course Browser">
-				        <div class="overlay">
-				           <h2>Internet Anomaly Detection</h2>
-				           <p> Merit Network Inc. operates more than 3800 miles of fiber optic infrastructure -- the core of networking and Internet connectivity state-wide across Michigan. I am working with Dr. Michalis Kallitsis on All-Packet Monitor (AMON), an internet security platform based on traffic visualization and algorithmic detection of anomalies. Project is supported by Department of Homeland Security Science and National Science Foundation. </p>
-				        </div>
-				    </div>
-				</a>
-			</div
-			><div class="projects-right-container">
-				<a href="https://github.com/victorwj">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/traveling-salesman.jpg" alt="University of Michigan Course Browser">
-				        <div class="overlay">
-				           <h2>Traveling Salesman Problem</h2>
-				           <p> A C++ implementation using branch and bound algorithm. Includes auxiliary features such as finding minimum spanning tree using Prim's algorithm, as well as a much faster but less accurate solution to TSP using nearest insertion heuristics. Input is in the form of x and y coordinates, and solutions consider this a completely connected graph. </p>
-				        </div>
-				    </div>
-				</a>
-			</div
-			><div class="projects-left-container">
-				<a href="https://github.com/victorwj">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/log-manager.jpg" alt="Content Aware Image Resizing">
-				        <div class="overlay">
-				           <h2>Log Manager</h2>
-				           <p> An efficient way to manage large amounts of input data with strict formatting. Maintain a main log and a separate excerpt to edit and print, supporting operations such as timestamp search, keyword search, matching search, append, and more. Developed with performance as priority, particularly for very large input sizes. </p>
-				        </div>
-				    </div>
-				</a>
-			</div
-			><div class="projects-right-container">
-				<a href="https://github.com/victorwj">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/image-resizing.jpg" alt="Content Aware Image Resizer">
-				        <div class="overlay">
-				           <h2>Content Aware Image Resizer</h2>
-				           <p> Not just simple cropping or resizing from dragging the corner of images! This program uses a technique called seam carving, which can identify important parts of an image and cut off the least important parts (e.g. the gap between horses decrease, the head of edge horse isn't cut off). Coded using C++ with pointers, arrays, structs, strings, and C-style "object-based" programming.  </p>
-				        </div>
-				    </div>
-				</a>
-			</div
-			><div class="projects-left-container">
-				<a href="https://github.com/victorwj">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/euchre.jpg" alt="Euchre Card Game">
-				        <div class="overlay">
-				           <h2>Euchre Card Game</h2>
-				           <p> Euchre is a popular card game in Michigan, played by 4 people divided into two partnerships and a deck of 24 cards. This program is a basic simulator of the game, with an implemented simple AI. Coded using C++ with abstract data types, object oriented programming, classes, arrays, vectors, and polymorphism.  </p>
-				        </div>
-				    </div>
-			    </a>
-			</div
-			><div class="projects-right-container">
-				<a href="http://cooleans.herokuapp.com">
-				    <div class="hovereffect">
-				        <img class="img-responsive" src="images/course-browser.jpg" alt="University of Michigan Course Browser">
-				        <div class="overlay">
-				           <h2>Course Browser</h2>
-				           <p> Browse UMich classes in a clear and organized way, along with a dynamic Google Maps display for selected classes. Web developed using Python2.7, HTML5, CSS3, and deployed using Heroku. Web framework using Flask and Jinja2, uses Google Maps API and UMich classes API. Working condition, no longer maintained. </p>
-				        </div>
-				    </div>
-			    </a>
-			</div>
-		</div>
-		<!-- FOOTER -->
-		<!-- <div id="footer">		
-			<p>
-				Made by Victor Ongkowijaya. <br>
-				2016 Jakarta, Indonesia. <br> 
-			</p>
-		</div> -->
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Victor Ongkowijaya"/>
+    <meta name="keywords" content="Victor, Ongkowijaya, Projects, Personal, Website, Resume, Portfolio"/>
+    <meta name="description" content="Personal website & portfolio of Victor Ongkowijaya. Find his projects, contact details, and other relevant information here."/>
+    <meta property="og:title" content="Victor Ongkowijaya"/>
+    <meta property="og:type" content="profile"/>
+    <meta property="og:description" content="Personal website & portfolio of Victor Ongkowijaya. Find his projects, contact details, and other relevant information here."/>
+    <meta property="og:url" content="https://victorwj.github.io"/>
+    <title>Projects | Victor Ongkowijaya</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+    <!-- <link rel="stylesheet" media="handheld, only screen and (max-device-width: 415px)" href="css/mobile.css"> --><!-- ORDER matters, render mobile first so it overrides basic stylesheet when resolution is detected. -->
+    <!-- Mobile.css no longer used, kept for future reference. -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <!-- Header has a parent div called "header-container" and two children divs called "header-title" and "header-tabs-container." Both children divs take up 50% of the page width.
+      The div "header-tabs" has children divs of class "header-tab." These divs individually contain the the tab buttons.-->
+    <div id="header-container">
+      <div id="header-title">
+        <h1> <a href="index.html">VICTOR ONGKOWIJAYA</a> </h1>
+      </div
+      ><div id="header-tabs-container"> <!-- inline-block respects whitespace. This leads to a small horizontal gap between the two children divs. To make them stand against each other, close the first div on the same line as the second child div starts. -->
+        <ul>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="index.html" id="current-tab">PROJECTS</a></li>
+        </ul>
+        <select onchange="location = this.value">
+          <option value="index.html" selected="selected">PROJECTS</option>
+          <option value="about.html">ABOUT</option>
+        </select>
+      </div>
+    </div>
+    <!-- CONTENT -->
+    <div id="content">
+      <div class="border-container">
+        <h2 class="plain-title"> Hi! Welcome to my website. <h2>
+            <p class="plain-content"> I'm a computer science & engineering student at the University of Michigan, Ann Arbor. Here are some of my projects so far! <br>
+            All my project codes, including this website, are available in my GitHub account. Some repos are made private to avoid violating the university's Honor Code. Email me for access -- more information can be found in the "About" section above. <br>
+            I am working on a separate page for each project with more details, along with the development process and challenges I encountered. Check back soon!
+            </p>
+      </div>
+      <div class="projects-left-container">
+        <a href="https://www.merit.edu/">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/merit.jpg" alt="University of Michigan Course Browser">
+            <div class="overlay">
+              <h2>Internet Anomaly Detection</h2>
+              <p> Merit Network Inc. operates more than 3800 miles of fiber optic infrastructure -- the core of networking and Internet connectivity state-wide across Michigan. I am working with Dr. Michalis Kallitsis on All-Packet Monitor (AMON), an internet security platform based on traffic visualization and algorithmic detection of anomalies. Project is supported by Department of Homeland Security Science and National Science Foundation. </p>
+            </div>
+          </div>
+        </a>
+      </div
+      ><div class="projects-right-container">
+        <a href="https://github.com/victorwj">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/traveling-salesman.jpg" alt="University of Michigan Course Browser">
+            <div class="overlay">
+              <h2>Traveling Salesman Problem</h2>
+              <p> A C++ implementation using branch and bound algorithm. Includes auxiliary features such as finding minimum spanning tree using Prim's algorithm, as well as a much faster but less accurate solution to TSP using nearest insertion heuristics. Input is in the form of x and y coordinates, and solutions consider this a completely connected graph. </p>
+            </div>
+          </div>
+        </a>
+      </div
+      ><div class="projects-left-container">
+        <a href="https://github.com/victorwj">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/log-manager.jpg" alt="Content Aware Image Resizing">
+            <div class="overlay">
+              <h2>Log Manager</h2>
+              <p> An efficient way to manage large amounts of input data with strict formatting. Maintain a main log and a separate excerpt to edit and print, supporting operations such as timestamp search, keyword search, matching search, append, and more. Developed with performance as priority, particularly for very large input sizes. </p>
+            </div>
+          </div>
+        </a>
+      </div
+      ><div class="projects-right-container">
+        <a href="https://github.com/victorwj">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/image-resizing.jpg" alt="Content Aware Image Resizer">
+            <div class="overlay">
+              <h2>Content Aware Image Resizer</h2>
+              <p> Not just simple cropping or resizing from dragging the corner of images! This program uses a technique called seam carving, which can identify important parts of an image and cut off the least important parts (e.g. the gap between horses decrease, the head of edge horse isn't cut off). Coded using C++ with pointers, arrays, structs, strings, and C-style "object-based" programming.  </p>
+            </div>
+          </div>
+        </a>
+      </div
+      ><div class="projects-left-container">
+        <a href="https://github.com/victorwj">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/euchre.jpg" alt="Euchre Card Game">
+            <div class="overlay">
+              <h2>Euchre Card Game</h2>
+              <p> Euchre is a popular card game in Michigan, played by 4 people divided into two partnerships and a deck of 24 cards. This program is a basic simulator of the game, with an implemented simple AI. Coded using C++ with abstract data types, object oriented programming, classes, arrays, vectors, and polymorphism.  </p>
+            </div>
+          </div>
+        </a>
+      </div
+      ><div class="projects-right-container">
+        <a href="http://cooleans.herokuapp.com">
+          <div class="hovereffect">
+            <img class="img-responsive" src="images/course-browser.jpg" alt="University of Michigan Course Browser">
+            <div class="overlay">
+              <h2>Course Browser</h2>
+              <p> Browse UMich classes in a clear and organized way, along with a dynamic Google Maps display for selected classes. Web developed using Python2.7, HTML5, CSS3, and deployed using Heroku. Web framework using Flask and Jinja2, uses Google Maps API and UMich classes API. Working condition, no longer maintained. </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
