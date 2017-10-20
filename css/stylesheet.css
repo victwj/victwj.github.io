@@ -1,9 +1,9 @@
 /*
   Author      : Victor Ongkowijaya
-  Date        : 15 July 2016
+  Site        : victorwj.github.io
   Project     : Personal Website
-  Filename    : stylesheet.css
- */
+  Date        : 15 July 2016
+*/
 
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
@@ -235,13 +235,13 @@ Resolutions below 961px treated as mobile, with no animations and static .hovere
 #portrait {
   display: inline-block;
   margin-left: 3%;
-  vertical-align: top;
+  vertical-align: middle;
   width: 24%;
 }
 
 #portrait-text {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   width: 73%;
 }
 
@@ -319,7 +319,6 @@ Resolutions below 961px treated as mobile, with no animations and static .hovere
     font-size: 2.5vw;
   }
 
-  /* ABOUT */
   #portrait {
     display: none;
   }
@@ -343,4 +342,3 @@ Resolutions below 961px treated as mobile, with no animations and static .hovere
     transform: none !important;
     filter: none !important;
   }
-}
