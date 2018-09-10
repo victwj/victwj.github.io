@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: index 
 title: index
 ---
 
-Test content:
-- 1 
-- 2
+I am a ... 
