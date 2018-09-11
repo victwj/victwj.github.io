@@ -1,5 +1,5 @@
 ---
 layout: index 
-title: index
+title: Victor Ongkowijaya
 ---
 VICTOR ONGKOWIJAYA
