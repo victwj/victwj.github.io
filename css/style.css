@@ -1,58 +1,21 @@
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-*/
-
-html, body, p {
+html, body {
     margin: 0;
     padding: 0;
     border: 0; 
 }
 
-p {
+p, a {
     color: #4d4d4d;
     font-family: 'Quicksand', sans-serif;
 }
 
-a:link {
-    color: green;
-}
-
-a:visited {
-    color: green;
-}
-
 div {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0% 25% 0% 25%;
 }
 
 .name {
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-
+    margin: 0% 0% 0% 0%;
+    padding: 2.5% 0% 2.5% 0%;
 	background-color: #e6e6e6;
     color: #4d4d4d;
     font-family: 'Quicksand', sans-serif;
@@ -61,5 +24,6 @@ div {
 }
 
 .about {
-    font-size: 2vw;
+    font-size: 1.25vw;
+    text-align: center;
 }
