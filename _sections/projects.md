@@ -4,6 +4,8 @@ order: 3
 include: projects.html
 ---
 
-Hello
+*An Evaluation of Russian Censorship*
 
-Hello
+*Detecting DNS Interference Globally*
+
+*ISP Scale Network Monitoring*
