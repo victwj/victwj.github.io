@@ -6,7 +6,7 @@ include: projects.html
 
 **An Evaluation of Russian Censorship**  
 Studying Russia's network censorship practices, in collaboration with
-[Russian activists](https://roskomsvoboda.org). Paper aimed for USENIX\`18.
+[Russian activists](https://roskomsvoboda.org). Paper aimed for USENIX\`19.
 
 <br/>
 
