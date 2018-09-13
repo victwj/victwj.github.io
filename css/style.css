@@ -29,12 +29,7 @@ div {
     text-align: center;
 }
 
-.about {
-    font-size: 1.5vw;
-    text-align: center;
-}
-
-.contacts {
+.about, .contacts {
     font-size: 1.5vw;
     text-align: center;
 }
@@ -44,14 +39,14 @@ div {
     text-decoration: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
     div {
         margin: 0% 10% 0% 10%;
     }
     .name {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .about, .contacts, p {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 }
