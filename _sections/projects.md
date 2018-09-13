@@ -1,4 +1,0 @@
----
-title: Projects
-order: 2
----
