@@ -7,6 +7,7 @@ html, body {
 p {
     color: #4d4d4d;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw;
 }
 
 a {
@@ -16,11 +17,13 @@ a {
 
 div {
     margin: 0% 25% 0% 25%;
+    padding: 2% 0% 2% 0%;
     overflow: hidden;
+    text-align: center;
 }
 
 .name {
-    margin: 0% 0% 2% 0%;
+    margin: 0% 0% 0% 0%;
     padding: 2.5% 0% 2.5% 0%;
 	background-color: #e6e6e6;
     color: #4d4d4d;
@@ -29,15 +32,26 @@ div {
     text-align: center;
 }
 
-.about, .contacts {
-    font-size: 1.5vw;
-    text-align: center;
+/* Don't want divider between about and contacts section,
+ * so remove the paddings */
+
+.about {
+    padding-bottom: 0%;
+}
+
+.contacts {
+    padding-top: 0%;
 }
 
 .contacts a {
     color: inherit;
-    text-decoration: none;
 }
+
+.projects, .courses {
+    border-top: solid 1px #e6e6e6;
+}
+
+/* Increase font size and reduce margins for smaller windows */
 
 @media (max-width: 800px) {
     div {
@@ -46,7 +60,7 @@ div {
     .name {
         font-size: 4vw;
     }
-    .about, .contacts, p {
+    p {
         font-size: 3vw;
     }
 }
