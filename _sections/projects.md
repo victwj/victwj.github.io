@@ -6,16 +6,17 @@ include: projects.html
 
 **An Evaluation of Russian Censorship**  
 Studying Russia's network censorship practices, in collaboration with
-[Russian activists](https://roskomsvoboda.org). Paper aimed for USENIX\`19.
+[Russian activists](https://roskomsvoboda.org). Paper aimed for 
+[USENIX 2019](https://www.usenix.org/conference/usenixsecurity19).
 
 <br/>
 
 **Measuring DNS Interference Globally**  
-DNS poisoning is a technique widely used by censors around the world. 
-[Censored Planet](https://censoredplanet.org)
-measures this phenomenon for ~160 countries, from just one
-machine in the US. Based on [Satellite](https://www.usenix.org/node/196211) 
-and [Iris](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pearce).
+Developing and maintaining a tool for [Censored
+Planet](https://censoredplanet.org) which measures DNS poisoning for ~160
+countries from just one machine in the US. Based
+on [Satellite](https://www.usenix.org/node/196211) and
+[Iris](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pearce).
 
 <br/>
 
@@ -29,6 +30,7 @@ Merit's network monitoring tool.
 <br/>
 
 **This Website**  
-Designed and coded from scratch using [Jekyll](https://jekyllrb.com), focusing on simplicity, 
-responsiveness, and maintainability. Replaces the previous pure HTML/CSS/JS website. Both source codes
-can be found on my [GitHub](https://github.com/victorwj/victorwj.github.io).
+Designed and coded from scratch using [Jekyll](https://jekyllrb.com), HTML, and CSS.
+Focused on simplicity, maintainability, and responsiveness across different
+platforms and window sizes. Code 
+can be found in my [GitHub](https://github.com/victorwj/victorwj.github.io).
