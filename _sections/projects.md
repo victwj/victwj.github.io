@@ -31,6 +31,6 @@ Merit's network monitoring tool.
 
 **This Website**  
 Designed and coded from scratch using [Jekyll](https://jekyllrb.com), HTML, and CSS.
-Focused on simplicity, maintainability, and responsiveness across different
-platforms and window sizes. Code 
+Focused on simplicity, maintainability, and usability across different
+platforms and window sizes. The code 
 can be found in my [GitHub](https://github.com/victorwj/victorwj.github.io).
