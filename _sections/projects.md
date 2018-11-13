@@ -5,7 +5,7 @@ include: projects.html
 ---
 
 **Evaluation of Russian Censorship**  
-Studying Russia's network censorship practices, in collaboration with
+Studying Russia's network censorship practices in collaboration with
 Russian activists. Developed and
 executed new measurement methods to detect network interference. First authorship
 paper aimed for 
@@ -41,8 +41,9 @@ Implemented additional security product features, fixed software issues, and imp
 <br/>
 
 **USENIX 2018 Attendee**  
-Funded attendance of
+Lab-funded attendee at
 [USENIX 2018](https://www.usenix.org/conference/usenixsecurity18), a major
-security research conference. Met many amazing researchers
-and learned about new advancements in the field 
+security research conference. Helped prepare a
+[lightning talk](https://censoredplanet.org/assets/CP_lightning_talk.pdf),
+met many researchers, and learned about new advancements in the field
 through presented talks and papers.
