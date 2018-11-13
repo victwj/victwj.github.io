@@ -6,7 +6,7 @@ include: projects.html
 
 **Evaluation of Russian Censorship**  
 Studying Russia's network censorship practices, in collaboration with
-[Russian activists](https://roskomsvoboda.org). Developed and 
+Russian activists. Developed and
 executed new measurement methods to detect network interference. First authorship
 paper aimed for 
 [USENIX 2019](https://www.usenix.org/conference/usenixsecurity19).
