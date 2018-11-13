@@ -21,15 +21,14 @@ a {
 }
 
 div {
-    margin: 0% 25% 0% 25%;
+    margin: 0% 20% 0% 20%;
     padding: 2% 0% 2% 0%;
     overflow: hidden;
-    text-align: center;
 }
 
 .name {
     margin: 0% 0% 0% 0%;
-    padding: 2.5% 0% 2.5% 0%;
+    padding: 2.5% 0% 2.5% 20%;
 	background-color: #e6e6e6;
     color: #4d4d4d;
     font-family: 'Quicksand', sans-serif;
