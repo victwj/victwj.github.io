@@ -23,7 +23,7 @@ on previous academic works [Satellite](https://www.usenix.org/node/196211) and
 <br/>
 
 **ISP-Scale DDoS Mitigation**  
-Worked as a research assistant with [Merit](https://www.merit.edu),
+Worked as a research assistant in [Merit](https://www.merit.edu),
 an ISP which covers University of Michigan and 
 much of the state's network infrastructure. Explored DNS-side 
 DDoS attack detection to extend
@@ -43,7 +43,7 @@ Implemented additional security product features, fixed software issues, and imp
 **USENIX 2018 Attendee**  
 Lab-funded attendee at
 [USENIX 2018](https://www.usenix.org/conference/usenixsecurity18), a major
-security research conference. Helped prepare a
+security research conference. Worked in a team to prepare a
 [lightning talk](https://censoredplanet.org/assets/CP_lightning_talk.pdf),
-met many researchers, and learned about new advancements in the field
+and learned about new advancements in the field
 through presented talks and papers.
