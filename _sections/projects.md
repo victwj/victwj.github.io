@@ -23,7 +23,7 @@ on previous academic works [Satellite](https://www.usenix.org/node/196211) and
 <br/>
 
 **ISP-Scale DDoS Mitigation**  
-Worked as a research assistant in [Merit](https://www.merit.edu),
+Worked as a research assistant for [Merit](https://www.merit.edu),
 an ISP which covers University of Michigan and 
 much of the state's network infrastructure. Explored DNS-side 
 DDoS attack detection to extend
@@ -33,7 +33,7 @@ Merit's high-speed 10Gbps+ network monitoring tool.
 <br/>
 
 **Enterprise Network Security**  
-Worked as a software engineering intern in
+Worked as a software engineering intern for
 [Nokia Deepfield](https://networks.nokia.com/solutions/deepfield-ip-network-analytics-DDoS-protection),
 a SaaS network analytics, monitoring, and security company.
 Implemented additional security product features, fixed software issues, and improved the integration testing pipeline.
