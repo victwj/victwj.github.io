@@ -35,8 +35,9 @@ high-speed 10Gbps+ network monitoring tool. Presented at the annual
 **Enterprise Network Security**  
 Worked as a software engineering intern for
 [Nokia Deepfield](https://networks.nokia.com/solutions/deepfield-ip-network-analytics-DDoS-protection),
-a SaaS network analytics, monitoring, and security company.
-Implemented additional security product features, fixed software issues, and improved the integration testing pipeline.
+a SaaS network analytics, monitoring, and security company.  Implemented
+additional security product features, fixed software issues, and improved the
+integration testing pipeline.
 
 <br/>
 
@@ -47,3 +48,12 @@ security research conference. Worked in a team to prepare a
 [lightning talk](https://censoredplanet.org/assets/CP_lightning_talk.pdf),
 and learned about new advancements in the field
 through presented talks and papers.
+
+<br/>
+
+**Voting Machine Forensic Analysis**  
+Ongoing project to study used voting machines publicly available on
+eBay. Exploring potential dangers such as recoverable voting data
+and possible attacks if such machines are re-bought and used in future
+elections. Covered in
+[U-M CSE news](http://eecs.umich.edu/eecs/about/articles/2018/halderman-election-course.html).

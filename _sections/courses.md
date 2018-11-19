@@ -4,15 +4,13 @@ order: 4
 include: content.html
 ---
 
-Computer Networks (EECS 489)
-
-Databases (EECS 484)
-
 Operating Systems (EECS 482)
 
-Web Systems (EECS 485)
+Computer Networks (EECS 489)
 
-Election Security (EECS 498)
+Database Systems (EECS 484)
+
+Web Systems (EECS 485)
 
 Computer Security (EECS 388)
 
