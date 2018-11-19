@@ -11,7 +11,6 @@ classify censorship techniques. First-author paper in submission for
 [USENIX 2019](https://www.usenix.org/conference/usenixsecurity19).
 
 <br/>
-
 **Measurement of Global DNS Manipulation**  
 Developed from scratch and deployed an implementation of
 [Satellite](https://www.usenix.org/node/196211) /
@@ -21,7 +20,6 @@ in the US. Collected data is available at
 [Censored Planet](https://censoredplanet.org).
 
 <br/>
-
 **ISP-Scale DDoS Mitigation**  
 Worked as a research assistant for [Merit](https://www.merit.edu), an ISP which
 operates 4000 miles of state-wide Internet fiber optic infrastructure. Explored
@@ -31,7 +29,6 @@ high-speed 10Gbps+ network monitoring tool. Presented at the annual
 [UROP](https://lsa.umich.edu/urop) research symposium.
 
 <br/>
-
 **Enterprise Network Security**  
 Worked as a software engineering intern for
 [Nokia Deepfield](https://networks.nokia.com/solutions/deepfield-ip-network-analytics-DDoS-protection),
@@ -40,7 +37,6 @@ additional security product features, fixed software issues, and improved the
 integration testing pipeline.
 
 <br/>
-
 **USENIX Security Symposium 2018**  
 Lab-funded attendee at
 [USENIX 2018](https://www.usenix.org/conference/usenixsecurity18), a major
@@ -50,7 +46,6 @@ and learned about new advancements in the field
 through presented talks and papers.
 
 <br/>
-
 **Voting Machine Forensic Analysis**  
 Ongoing project to study used voting machines publicly available on
 eBay. Exploring potential dangers such as recoverable voting data
