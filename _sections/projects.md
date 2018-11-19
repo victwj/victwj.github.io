@@ -40,7 +40,7 @@ Implemented additional security product features, fixed software issues, and imp
 
 <br/>
 
-**USENIX 2018 Attendee**  
+**USENIX Security Symposium 2018**  
 Lab-funded attendee at
 [USENIX 2018](https://www.usenix.org/conference/usenixsecurity18), a major
 security research conference. Worked in a team to prepare a
