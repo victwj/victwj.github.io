@@ -1,7 +1,7 @@
 ---
 title: Notes
 order: 5
-include: projects.html
+include: content.html
 ---
 
 This website was designed and coded from scratch using 

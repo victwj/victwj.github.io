@@ -1,7 +1,7 @@
 ---
 title: About
 order: 1
-include: about.html
+include: content.html
 ---
 
 Hi! I'm a senior in computer science at 
@@ -17,3 +17,8 @@ an introductory computer science class open to all majors with ~1000 enrolled st
 
 In the past, I've been at [Nokia Deepfield](https://networks.nokia.com/solutions/deepfield-ip-network-analytics-DDoS-protection) and [Merit](https://www.merit.edu) (mentored by [Dr. Kallitsis](http://www-personal.umich.edu/~mgkallit/)), both
 for network security.
+
+<br/>
+[victorwj@umich.edu](mailto:victorwj@umich.edu)
+
+[github/victorwj](https://github.com/victorwj)

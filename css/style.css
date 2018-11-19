@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 p {
@@ -35,23 +35,8 @@ div {
     font-size: 2.5vw;
 }
 
-/* Don't want divider between about and contacts section,
- * so remove the paddings */
-
-.about {
-    padding-bottom: 0%;
-}
-
-.contacts {
-    padding-top: 0%;
-}
-
-.contacts a {
-    color: inherit;
-}
-
-.projects, .courses {
-    border-top: solid 1px #e6e6e6;
+.content {
+    border-bottom: solid 1px #e6e6e6;
 }
 
 /* Increase font size and reduce margins for smaller windows */

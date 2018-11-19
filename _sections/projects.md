@@ -1,34 +1,34 @@
 ---
 title: Projects
 order: 3
-include: projects.html
+include: content.html
 ---
 
 **Evaluation of Russian Censorship**  
-Studying Russia's network censorship practices in collaboration with
-Russian activists. Developed and
-executed new measurement methods to detect network interference. First authorship
-paper aimed for 
+Studied Russia's network censorship practices in collaboration with Russian
+activists. Developed and executed novel measurement methods to detect and
+classify censorship techniques. First-author paper in submission for 
 [USENIX 2019](https://www.usenix.org/conference/usenixsecurity19).
 
 <br/>
 
 **Measurement of Global DNS Manipulation**  
-Developing and maintaining a tool for [Censored
-Planet](https://censoredplanet.org) which measures DNS poisoning for ~160
-countries from just 1 machine in the US. Based
-on previous academic works [Satellite](https://www.usenix.org/node/196211) and
-[Iris](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pearce).
+Developed from scratch and deployed an implementation of
+[Satellite](https://www.usenix.org/node/196211) /
+[Iris](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pearce),
+a tool which measures DNS interference for ~160 countries from just 1 machine
+in the US. Collected data is available at 
+[Censored Planet](https://censoredplanet.org).
 
 <br/>
 
 **ISP-Scale DDoS Mitigation**  
-Worked as a research assistant for [Merit](https://www.merit.edu),
-an ISP which covers University of Michigan and 
-much of the state's network infrastructure. Explored DNS-side 
-DDoS attack detection to extend
-[AMON](https://ieeexplore.ieee.org/abstract/document/7460178/), 
-Merit's high-speed 10Gbps+ network monitoring tool.
+Worked as a research assistant for [Merit](https://www.merit.edu), an ISP which
+operates 4000 miles of state-wide Internet fiber optic infrastructure. Explored
+DNS-side DDoS attack detection through real-world Internet traffic data to
+extend [AMON](https://ieeexplore.ieee.org/abstract/document/7460178/), Merit's
+high-speed 10Gbps+ network monitoring tool. Presented at the annual
+[UROP](https://lsa.umich.edu/urop) research symposium.
 
 <br/>
 

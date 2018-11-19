@@ -1,7 +1,7 @@
 ---
 title: Courses
 order: 4
-include: courses.html
+include: content.html
 ---
 
 Computer Networks (EECS 489)
