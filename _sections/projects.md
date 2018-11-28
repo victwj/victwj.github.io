@@ -18,6 +18,8 @@ Developed from scratch and deployed an implementation of
 a tool which measures DNS interference for ~160 countries from just 1 machine
 in the US. Collected data is available at 
 [Censored Planet](https://censoredplanet.org).
+Covered in 
+[MIT Technology Review](https://www.technologyreview.com/s/612448/online-censorship-saudi-arabia-khashoggi/).
 
 <br/>
 **ISP-Scale DDoS Mitigation**  
