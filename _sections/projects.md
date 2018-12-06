@@ -7,8 +7,8 @@ include: content.html
 **Evaluation of Russian Censorship**  
 Studied Russia's network censorship practices in collaboration with Russian
 activists. Developed and executed novel measurement methods to detect and
-classify censorship techniques. First-author paper in submission for 
-[USENIX 2019](https://www.usenix.org/conference/usenixsecurity19).
+classify censorship techniques. First-author paper in submission at
+a major security conference.
 
 <br/>
 **Measurement of Global DNS Manipulation**  
