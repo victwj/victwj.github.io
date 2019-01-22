@@ -7,7 +7,7 @@ include: content.html
 Hi! I'm a senior in computer science at 
 the [University of Michigan](https://www.eecs.umich.edu/cse/).
 
-I currently work as a research assistant
+Aside from being a full time student, I currently work as a research assistant
 at [Prof. Ensafi](https://ensa.fi)'s lab, in collaboration with [Prof.
 Halderman](https://jhalderm.com)'s lab, for computer and network security.
 My recent work includes first-authoring a paper (under submission) and
