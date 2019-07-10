@@ -7,7 +7,7 @@ include: content.html
 **Evaluation of Russian Censorship**  
 Studied Russia's network censorship practices in collaboration with Russian
 activists. Developed and executed novel measurement methods to detect and
-classify censorship techniques. First-author paper in submission at
+classify censorship techniques. Paper in submission at
 a major security conference.
 
 <br/>
