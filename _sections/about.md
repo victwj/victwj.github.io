@@ -25,5 +25,5 @@ Kallitsis](http://www-personal.umich.edu/~mgkallit/)), both in the field of
 network security.
 
 <br/>
-[victorwj@umich.edu](mailto:victorwj@umich.edu)  
-[github/victorwj](https://github.com/victorwj)
+[vo6@princeton.edu](mailto:vo6@princeton.edu)  
+[github/victwj](https://github.com/victwj)
