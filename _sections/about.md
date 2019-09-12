@@ -4,7 +4,7 @@ order: 1
 include: content.html
 ---
 
-Hi! I'm an incoming Ph.D. student in computer science at [Princeton
+Hi! I'm a Ph.D. student in computer science at [Princeton
 University](https://www.cs.princeton.edu/).
 
 I received my B.S.E. magna cum laude from the [University of
