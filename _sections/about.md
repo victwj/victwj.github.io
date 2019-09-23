@@ -9,7 +9,7 @@ University](https://www.cs.princeton.edu/). My current
 interests are broadly in computer security/privacy, networks, and systems.
 
 I received my B.S.E. in computer science _magna cum laude_ from the [University of
-Michigan](https://www.eecs.umich.edu/cse/). While maintaining full-time student
+Michigan](https://www.eecs.umich.edu/cse/). While taking full-time student
 course loads, I worked as a research assistant at [Prof.
 Ensafi](https://ensa.fi)'s lab and as a teaching assistant for [EECS
 183](https://eecs183.org).
