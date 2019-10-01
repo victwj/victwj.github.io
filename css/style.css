@@ -8,11 +8,16 @@ body {
     margin-bottom: 4%;
 }
 
-p {
+p,ul {
     color: #4d4d4d;
     font-family: 'Quicksand', Verdana, sans-serif;
     font-size: 1.25vw;
     line-height: 1.5;
+}
+
+ul {
+    list-style: inside;
+    padding-left: 3px;
 }
 
 a {
@@ -49,7 +54,7 @@ div {
         padding: 2.5% 0% 2.5% 10%;
         font-size: 4vw;
     }
-    p {
+    p,ul {
         font-size: 3vw;
         line-height: 1.75;
     }
