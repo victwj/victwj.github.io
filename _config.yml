@@ -1,2 +1,5 @@
 collections:
     - sections
+
+plugins:
+    - jekyll-target-blank
