@@ -2,4 +2,4 @@ collections:
     - sections
 
 plugins:
-    - jekyll-target-blank
+    - jekyll-seo-tag
