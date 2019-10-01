@@ -5,22 +5,22 @@ include: content.html
 ---
 
 Hi! I'm a Ph.D. student in computer science at [Princeton
-University](https://www.cs.princeton.edu/). My current
+University](https://www.cs.princeton.edu/){:target="_blank"}. My current
 interests are broadly in computer security/privacy, networks, and systems.
 
 I received my B.S.E. in computer science _magna cum laude_ from the [University of
-Michigan](https://www.eecs.umich.edu/cse/). While taking full-time student
+Michigan](https://www.eecs.umich.edu/cse/){:target="_blank"}. While taking full-time student
 course loads, I worked as a research assistant at [Prof.
-Ensafi](https://ensa.fi)'s lab and as a teaching assistant for [EECS
-183](https://eecs183.org).
+Ensafi](https://ensa.fi){:target="_blank"}'s lab and as a teaching assistant for [EECS
+183](https://eecs183.org){:target="_blank"}.
 
 In the past, I was a software engineering intern at [Nokia
-Deepfield](https://www.nokia.com/networks/solutions/deepfield/)
-and research assistant at [Merit Networks](https://www.merit.edu) (mentored by [Dr.
-Kallitsis](http://www-personal.umich.edu/~mgkallit/)), both in the field of
+Deepfield](https://www.nokia.com/networks/solutions/deepfield/){:target="_blank"}
+and research assistant at [Merit Networks](https://www.merit.edu){:target="_blank"} (mentored by [Dr.
+Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}), both in the field of
 network security.
 
 -- &nbsp; [victwj@princeton.edu](mailto:vo6@princeton.edu)  
--- &nbsp; [GitHub/victwj](https://github.com/victwj)  
--- &nbsp; [LinkedIn/victwj](https://www.linkedin.com/in/victwj/)  
+-- &nbsp; [GitHub/victwj](https://github.com/victwj){:target="_blank"}  
+-- &nbsp; [LinkedIn/victwj](https://www.linkedin.com/in/victwj/){:target="_blank"}  
 -- &nbsp; [Resume]({{ site.url }}/assets/downloads/resume.pdf){:target="_blank"}  
