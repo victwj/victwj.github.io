@@ -3,3 +3,5 @@ collections:
 
 plugins:
     - jekyll-seo-tag
+
+url: https://victwj.com
