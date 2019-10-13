@@ -20,7 +20,8 @@ and research assistant at [Merit Networks](https://www.merit.edu){:target="_blan
 Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}), both in the field of
 network security.
 
--- &nbsp; [victwj@princeton.edu](mailto:vo6@princeton.edu)  
--- &nbsp; [GitHub/victwj](https://github.com/victwj){:target="_blank"}  
--- &nbsp; [LinkedIn/victwj](https://www.linkedin.com/in/victwj/){:target="_blank"}  
--- &nbsp; [Resume]({{ site.url }}/assets/downloads/resume.pdf){:target="_blank"}  
+
+Email: [victwj@princeton.edu](mailto:vo6@princeton.edu)  
+GitHub: [victwj](https://github.com/victwj){:target="_blank"}  
+LinkedIn: [victwj](https://www.linkedin.com/in/victwj/){:target="_blank"}  
+Resume: [pdf]({{ site.url }}/assets/downloads/resume.pdf){:target="_blank"}  
