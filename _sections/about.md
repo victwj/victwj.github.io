@@ -21,7 +21,7 @@ Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}), both in
 network security.
 
 
-Email: [victwj@princeton.edu](mailto:vo6@princeton.edu)  
-GitHub: [victwj](https://github.com/victwj){:target="_blank"}  
-LinkedIn: [victwj](https://www.linkedin.com/in/victwj/){:target="_blank"}  
-Resume: [pdf]({{ site.url }}/assets/downloads/resume.pdf){:target="_blank"}  
+- Email: [victwj@princeton.edu](mailto:vo6@princeton.edu)  
+- GitHub: [victwj](https://github.com/victwj){:target="_blank"}  
+- LinkedIn: [victwj](https://www.linkedin.com/in/victwj/){:target="_blank"}  
+- Resume: [pdf]({{ site.url }}/assets/downloads/resume.pdf){:target="_blank"}  
