@@ -31,13 +31,49 @@ div {
     overflow: hidden;
 }
 
-.name {
-    margin: 0% 0% 0% 0%;
-    padding: 2% 0% 2% 20%;
-	background-color: #e6e6e6;
+.portrait {
+    float: left;
+    margin-right: 1em;
+    width: 29%;
+    height: auto;
+}
+
+.bar {
+    /* margin: 0% 0% 0% 0%; */
+    /* padding: 1% 20% 1% 20%; */
+	/* background-color: #e6e6e6; */
+    margin: 0% 20% 0% 20%;
     color: #4d4d4d;
     font-family: 'Quicksand', Verdana, sans-serif;
+    border-bottom: 0.5px solid #4d4d4d;
+}
+
+.bar_text {
+    margin: 0% 0% 0% 0%;
+    float: left;
+    width: 70%;
+}
+
+.bar_icons {
+    text-align: right;
+    margin: 2.5% 0% 0% 0%;
+    width: 30%;
+}
+
+.bar_icons img {
+    height: 2.5vw;
+    margin-left: 5%;
+}
+
+.name {
     font-size: 2vw;
+    line-height: 0;
+}
+
+.email {
+    font-size: 1.25vw;
+    line-height: 0;
+    color: #2980B9;
 }
 
 .content {
@@ -50,9 +86,36 @@ div {
     div {
         margin: 0% 10% 0% 10%;
     }
+    .bar {
+        margin: 0% 10% 5% 10%;
+        padding: 5% 0% 5% 0%;
+        /* border-bottom: none; */
+    }
+    .bar_text {
+        margin: 0% 0% 0% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .bar_icons {
+        margin: 0% 0% 0% 0%;
+        text-align: center;
+        width: 100%;
+    }
+    .bar_icons img {
+        margin: 3% 3% 0% 3%;
+        height: 11vw;
+    }
     .name {
-        padding: 2.5% 0% 2.5% 10%;
+        font-size: 5vw;
+    }
+    .email{
         font-size: 4vw;
+    }
+    .portrait {
+        display: block;
+        width: 50%;
+        margin: auto;
+        float: none;
     }
     p,ul {
         font-size: 3vw;

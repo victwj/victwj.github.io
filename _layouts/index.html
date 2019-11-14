@@ -2,8 +2,24 @@
 layout: default
 ---
 
-<div class="name"> 
-  Victor Ongkowijaya
+<div class="bar"> 
+  <div class="bar_text">
+    <p class="name"> Victor Ongkowijaya </p>
+    <a href="mailto:victwj@princeton.edu"> 
+      <p class="email"> victwj@princeton.edu </p> 
+    </a>
+  </div>
+  <div class="bar_icons">
+    <a href="https://www.linkedin.com/in/victwj" target="_blank">
+      <img src="{{ site.url }}/assets/images/linkedin.png" >
+    </a>
+    <a href="https://github.com/victwj" target="_blank">
+      <img src="{{ site.url }}/assets/images/github.png">
+    </a>
+    <a href="{{ site.url }}/assets/downloads/resume.pdf" target="_blank">
+      <img src="{{ site.url }}/assets/images/resume.png">
+    </a>
+  </div>
 </div>
 
 {% assign sections = site.sections | sort: 'order' %}

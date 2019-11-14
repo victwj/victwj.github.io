@@ -4,6 +4,8 @@ order: 1
 include: content.html
 ---
 
+<img class="portrait" src="{{ site.url }}/assets/images/self.png">
+
 Hi! I'm a Ph.D. student in computer science at [Princeton
 University](https://www.cs.princeton.edu/){:target="_blank"}. My current
 interests are broadly in computer security/privacy, networks, and systems.
@@ -19,9 +21,3 @@ Deepfield](https://www.nokia.com/networks/solutions/deepfield/){:target="_blank"
 and research assistant at [Merit Networks](https://www.merit.edu){:target="_blank"} (mentored by [Dr.
 Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}), both in the field of
 network security.
-
-
-- Email: [victwj@princeton.edu](mailto:vo6@princeton.edu)  
-- GitHub: [victwj](https://github.com/victwj){:target="_blank"}  
-- LinkedIn: [victwj](https://www.linkedin.com/in/victwj/){:target="_blank"}  
-- Resume: [pdf]({{ site.url }}/assets/downloads/resume.pdf){:target="_blank"}  
