@@ -49,8 +49,9 @@ div {
 	/* background-color: #e6e6e6; */
     margin: 0% 20% 0% 20%;
     color: #4d4d4d;
+    /* border-bottom: solid 1px #e6e6e6; */
     font-family: 'Quicksand', Verdana, sans-serif;
-    border-bottom: 0.5px solid #4d4d4d;
+    /* border-bottom: 0.5px solid #4d4d4d; */
 }
 
 .bar_text {
@@ -82,6 +83,7 @@ div {
 }
 
 .content {
+    border-top: solid 1px #e6e6e6;
     /* border-bottom: solid 1px #e6e6e6; */
 }
 
@@ -93,8 +95,11 @@ div {
     }
     .bar {
         margin: 0% 10% 5% 10%;
-        padding: 5% 0% 5% 0%;
+        padding: 5% 0% 0% 0%;
         /* border-bottom: none; */
+    }
+    .content {
+        border-top: none;
     }
     .bar_text {
         margin: 0% 0% 0% 0%;
