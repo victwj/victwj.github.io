@@ -26,7 +26,6 @@ network security.
 
 In my spare time, I watch and play a lot of badminton. I'm a sucker for
 self-improvement books, biographies, and most video games. I've been playing
-the piano since I was five and currently trying to learn the guitar and drums. I'm
-hoping to cover up for my complete inability to sing and one day join a 
-band. My special talent is being allergic to harmless plants and dust.
+the piano since I was five and currently trying to learn the guitar and drums.
+My special talent is being allergic to basically everything.
 I'm from [Jakarta, Indonesia](https://en.wikipedia.org/wiki/Jakarta).
