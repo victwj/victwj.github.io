@@ -27,8 +27,8 @@ network security.
 
 In my spare time, I watch and play a lot of badminton. I'm a sucker for
 self-improvement books, biographies, and most video games. I've been playing
-the piano since I was five and currently trying to learn the guitar and drums.
-My special talent is being allergic to everything floating in the air.
+the piano since I was five and currently trying to learn the guitar and drums to someday join 
+a casual band. My special talent is being allergic to everything floating in the air.
 I'm from [Jakarta, Indonesia](https://en.wikipedia.org/wiki/Jakarta), the
 [fastest sinking city in the world](https://www.bbc.com/news/world-asia-44636934), in no 
 small part due to climate change. I hope to do my part in solving this issue, one step at a time.
