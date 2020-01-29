@@ -10,8 +10,9 @@ body {
 
 p,ul {
     color: #4d4d4d;
-    font-family: 'Quicksand', Verdana, sans-serif;
-    font-size: 1.25vw;
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.15vw;
     line-height: 1.5;
 }
 
@@ -72,6 +73,7 @@ div {
 }
 
 .name {
+    font-weight: 300;
     font-size: 2vw;
     line-height: 0;
 }

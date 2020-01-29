@@ -16,9 +16,7 @@ I received my B.S.E. in computer science _magna cum laude_ from the [University
 of Michigan](https://www.eecs.umich.edu/cse/){:target="_blank"}. While taking
 full-time student course loads, I worked as a research assistant at [Prof.
 Ensafi](https://ensa.fi){:target="_blank"}'s lab ([Censored Planet](https://censoredplanet.org))
-and as a teaching assistant for [EECS 183](https://eecs183.org){:target="_blank"}. 
-I enjoy research and teaching. 
-
+and as a teaching assistant for [EECS 183](https://eecs183.org){:target="_blank"}.
 In the past, I was a software engineering intern at [Nokia
 Deepfield](https://www.nokia.com/networks/solutions/deepfield/){:target="_blank"}
 and research assistant at [Merit Networks](https://www.merit.edu){:target="_blank"} (mentored by [Dr.
