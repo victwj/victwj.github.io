@@ -9,11 +9,12 @@ body {
 }
 
 p,ul {
+    margin-top: 0;
     color: #4d4d4d;
     font-family: 'Quicksand', Arial, sans-serif;
     font-weight: 300;
-    font-size: 1.2vw;
-    line-height: 1.25;
+    font-size: 1.1vw;
+    line-height: 1.5;
 }
 
 ul {
@@ -36,7 +37,8 @@ img {
     color: #4d4d4d;
     border-bottom: solid 1px #e6e6e6;
     font-family: 'Quicksand', Verdana, sans-serif;
-    padding: 3% 0% 3% 0%;
+    padding: 6% 0% 3% 0%;
+    margin-bottom: 5%;
 }
 
 #header-name {
@@ -55,26 +57,27 @@ img {
 
 #about {
     display: flex;
-    padding: 2% 0% 2% 0%;
+    margin-bottom: 5%;
     align-items: center;
 }
 
 #about-portrait {
     text-align: center;
+    max-width: 27%;
+    margin-bottom: 1%;
     flex-grow: 1;
     flex-basis: 0;
 }
 
 #about-text {
-    padding-left: 3%;
-    flex-grow: 3;
+    margin-left: 5%;
+    flex-grow: 2;
     flex-basis: 0;
 }
 
 /* Projects */
 
 #projects {
-    margin-top: 2%;
     width: 100%;
     border-spacing: 0;
 }
@@ -85,7 +88,7 @@ img {
 
 #projects td {
     vertical-align: top;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 .project-img {
