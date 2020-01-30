@@ -2,7 +2,6 @@
 layout: index 
 ---
 
-<img id="portrait" src="{{ site.url }}/assets/images/self.png">
 
 Hi! I'm a Ph.D. student in computer science at [Princeton
 University](https://www.cs.princeton.edu/){:target="_blank"}. My current
@@ -20,8 +19,21 @@ Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}), both in
 network security.
 
 In my spare time, I watch and play a lot of badminton. I'm a sucker for
-self-improvement books, biographies, and most video games. I've been playing
-the piano since I was five and I'm currently trying to learn the guitar and drums. 
+self-improvement books, biographies, and most video games.
 My special talent is being allergic to everything floating in the air.
 I'm from [Jakarta, Indonesia](https://en.wikipedia.org/wiki/Jakarta).
 
+<!--
+<table class="project">
+{% for project in site.projects %}
+    <tr>
+        <td class="project-txt">
+        {{ project.content }}
+        </td>
+        <td class="project-img">
+      <img src ="{{ site.url }}/assets/images/{{ project.image }}">
+        </td>
+    </tr>
+{% endfor %}
+</table>
+-->
