@@ -4,6 +4,5 @@ collections:
 
 plugins:
     - jekyll-seo-tag
-    - jekyll-target-blank
 
 url: https://victwj.com

@@ -1,6 +1,6 @@
 ---
 order: 5
-image: rubl.png
+image: voting.png
 ---
 
 **Voting Machine Forensic Analysis**  

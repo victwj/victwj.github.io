@@ -95,17 +95,19 @@ hr {
 
 #projects td {
     vertical-align: top;
-    padding-bottom: 4%;
+    padding-bottom: 6%;
+    /* border: 1px solid black; */
 }
 
 .project-img {
+    /* border: 1px solid black; */
     text-align: center;
-    width: 35%;
+    width: 30%;
 }
 
 .project-txt {
-    padding-top: 2%;
-    padding-right: 3%;
+    /* padding-top: 2%; */
+    padding-right: 8%;
 }
 
 

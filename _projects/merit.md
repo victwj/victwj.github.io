@@ -1,6 +1,6 @@
 ---
 order: 2
-image: rubl.png
+image: merit.png
 ---
 
 **ISP-Scale DDoS Mitigation**  

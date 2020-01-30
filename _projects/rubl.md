@@ -3,7 +3,7 @@ order: 1
 image: rubl.png
 ---
 
-**Information Control in Russia**  
+**Decentralized Control: A Case Study of Russia**  
 
 [Paper (NDSS'20)](https://censoredplanet.org/assets/russia.pdf) /
 [Report](https://censoredplanet.org/russia)
@@ -12,9 +12,8 @@ image: rubl.png
 
 Unlike other censoring countries such as China and Iran, very little is known
 about Russia's censorship practices. We collaborated with activists and developed
-new measurement methods to explore this issue. Our work was
+new measurement methods to capture the information control ecosystem of Russia. Our work was
 covered by 80+ news journals around the world:
-
 [ABC](https://abcnews.go.com/Politics/wireStory/study-russias-web-censoring-tool-sets-pace-imitators-66797101)
 /
 [NYT](https://www.nytimes.com/aponline/2019/11/06/us/politics/ap-us-russia-internet-censorship.html)

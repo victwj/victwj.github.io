@@ -1,9 +1,9 @@
 ---
 order: 2
-image: rubl.png
+image: cp.png
 ---
 
-**Global Censorship Observatory**
+**Censored Planet**
 
 [Project Site](https://censoredplanet.org)
 
