@@ -1,6 +1,5 @@
 collections:
-    projects:
-        sort_by: order
+    - projects
 
 plugins:
     - jekyll-seo-tag

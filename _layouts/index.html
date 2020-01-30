@@ -12,7 +12,8 @@ layout: default
 </div>
 
 <table id="projects">
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: 'order' %}
+{% for project in projects %}
     <tr>
       <td class="project-txt">
         {{ project.content }}
