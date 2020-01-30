@@ -2,31 +2,6 @@
 layout: default
 ---
 
-<div class="bar"> 
-  <div class="bar_text">
-    <p class="name"> Victor Ongkowijaya </p>
-    <p class="email">
-      <a href="mailto:victwj@princeton.edu"> 
-      victwj@princeton.edu
-      </a> /
-      <a href="{{ site.url }}/assets/downloads/resume.pdf" target="_blank">
-        CV
-      </a> /
-      <a href="https://github.com/victwj" target="_blank">
-        GitHub
-      </a> /
-      <a href="https://www.linkedin.com/in/victwj" target="_blank">
-        LinkedIn
-      </a>
-    </p> 
-  </div>
+<div>
+  {{ content }}
 </div>
-
-{% assign sections = site.sections | sort: 'order' %}
-{% for section in sections %}
-  {% if section.include != null %}
-    {% include {{ section.include }} %}
-  {% else %}
-    {% include default.html %}
-  {% endif %}
-{% endfor %}
