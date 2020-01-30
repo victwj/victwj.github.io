@@ -1,11 +1,8 @@
 ---
 layout: index 
-title: Victor Ongkowijaya
 ---
 
-<div class="portrait">
-    <img src="{{ site.url }}/assets/images/self.png">
-</div>
+<img id="portrait" src="{{ site.url }}/assets/images/self.png">
 
 Hi! I'm a Ph.D. student in computer science at [Princeton
 University](https://www.cs.princeton.edu/){:target="_blank"}. My current
