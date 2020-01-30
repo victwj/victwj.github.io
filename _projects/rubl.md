@@ -3,15 +3,18 @@ order: 1
 image: rubl.png
 ---
 
-**Analyzing Russian Censorship**  
+**Information Control in Russia**  
 
 [Paper (NDSS'20)](https://censoredplanet.org/assets/russia.pdf) /
 [Report](https://censoredplanet.org/russia)
 
+---
+
 Unlike other censoring countries such as China and Iran, very little is known
 about Russia's censorship practices. We collaborated with activists and developed
-new measurement methods to explore this issue. Our work was fortunate to
-be covered by 80+ news journals around the world:
+new measurement methods to explore this issue. Our work was
+covered by 80+ news journals around the world:
+
 [ABC](https://abcnews.go.com/Politics/wireStory/study-russias-web-censoring-tool-sets-pace-imitators-66797101)
 /
 [NYT](https://www.nytimes.com/aponline/2019/11/06/us/politics/ap-us-russia-internet-censorship.html)
@@ -26,12 +29,4 @@ be covered by 80+ news journals around the world:
 / 
 [China](https://www.chinanews.net/news/262993110/study-russias-web-censoring-tool-sets-pace-for-imitators)
 / 
-[Taiwan](https://www.taiwannews.com.tw/en/news/3811897)
- 
- 
-        
-
-
-
-
-
+[Taiwan](https://www.taiwannews.com.tw/en/news/3811897).

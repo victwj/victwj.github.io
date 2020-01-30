@@ -4,9 +4,12 @@ image: rubl.png
 ---
 
 **ISP-Scale DDoS Mitigation**  
-Worked as a research assistant for [Merit](https://www.merit.edu){:target="_blank"}, an ISP which
-operates 4000 miles of state-wide Internet fiber optic infrastructure. Explored
-DNS-side DDoS attack detection through real-world Internet traffic data to
-extend [AMON](https://ieeexplore.ieee.org/abstract/document/7460178/){:target="_blank"}, Merit's
-high-speed 10Gbps+ network monitoring tool. Presented at the annual
-[UROP](https://lsa.umich.edu/urop){:target="_blank"} research symposium.
+[Poster]() ([UMich UROP Symposium](https://lsa.umich.edu/urop))
+
+---
+
+Internet service providers are susceptible to DDoS attacks, leading 
+to user downtimes and network congestion. We worked with real-world Internet traffic data, 
+coming from [Merit's](https://www.merit.edu) 4000 miles of Internet fiber-optic infrastructure, 
+to explore DNS-side DDoS detection and enhance the existing network monitoring software 
+([AMON](https://ieeexplore.ieee.org/abstract/document/7460178/)).

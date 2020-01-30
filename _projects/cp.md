@@ -3,14 +3,15 @@ order: 2
 image: rubl.png
 ---
 
-**Global Network Interference Platform**
+**Global Censorship Observatory**
+
 [Project Site](https://censoredplanet.org)
 
-Developed from scratch and deployed an implementation of
-[Satellite](https://www.usenix.org/node/196211){:target="_blank"} /
-[Iris](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pearce){:target="_blank"},
-a tool which measures DNS interference for ~160 countries from just 1 machine
-in the US. Collected data is available at 
-[Censored Planet](https://censoredplanet.org){:target="_blank"}.
-Covered in 
-[MIT Technology Review](https://www.technologyreview.com/s/612448/online-censorship-saudi-arabia-khashoggi/){:target="_blank"}.
+---
+
+To protect freedom of speech, there must be a way to independently detect if
+something has been censored. Our platform uses remote measurement techniques
+to collect and publish such data,
+weekly, for more than 150 countries. The platform has detected surreptitious censorship 
+involving [Saudi Arabia](https://www.technologyreview.com/s/612448/online-censorship-saudi-arabia-khashoggi/) 
+and [Kazakhstan](https://censoredplanet.org/kazakhstan).
