@@ -3,7 +3,9 @@ order: 2
 image: rubl.png
 ---
 
-**Measurement of Global DNS Manipulation**  
+**Global Network Interference Platform**
+[Project Site](https://censoredplanet.org)
+
 Developed from scratch and deployed an implementation of
 [Satellite](https://www.usenix.org/node/196211){:target="_blank"} /
 [Iris](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/pearce){:target="_blank"},
