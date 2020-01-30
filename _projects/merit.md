@@ -4,7 +4,7 @@ image: merit.png
 ---
 
 **ISP-Scale DDoS Mitigation**  
-[Poster]() ([UMich UROP Symposium](https://lsa.umich.edu/urop))
+[Poster]({{ site.url }}/assets/merit_poster.pdf) ([UMich UROP Symposium](https://lsa.umich.edu/urop))
 
 ---
 
