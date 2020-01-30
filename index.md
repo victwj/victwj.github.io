@@ -22,18 +22,3 @@ In my spare time, I watch and play a lot of badminton. I'm a sucker for
 self-improvement books, biographies, and most video games.
 My special talent is being allergic to everything floating in the air.
 I'm from [Jakarta, Indonesia](https://en.wikipedia.org/wiki/Jakarta).
-
-<!--
-<table class="project">
-{% for project in site.projects %}
-    <tr>
-        <td class="project-txt">
-        {{ project.content }}
-        </td>
-        <td class="project-img">
-      <img src ="{{ site.url }}/assets/images/{{ project.image }}">
-        </td>
-    </tr>
-{% endfor %}
-</table>
--->

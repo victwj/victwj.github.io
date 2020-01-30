@@ -26,11 +26,17 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
 #header {
     color: #4d4d4d;
     border-bottom: solid 1px #e6e6e6;
     font-family: 'Quicksand', Verdana, sans-serif;
-    padding: 2% 0% 2% 0%;
+    padding: 3% 0% 3% 0%;
 }
 
 #header-name {
@@ -45,70 +51,52 @@ a {
     line-height: 0.5;
 }
 
+/* About */
+
 #about {
     display: flex;
     padding: 2% 0% 2% 0%;
+    align-items: center;
 }
 
 #about-portrait {
-    margin: 3% 3% 0% 0%;
-    max-width: 25%;
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
 }
 
 #about-text {
-    flex-grow: 2;
+    padding-left: 3%;
+    flex-grow: 3;
     flex-basis: 0;
 }
 
-.project {
-	/* background-color: red; */
+/* Projects */
+
+#projects {
+    margin-top: 2%;
+    width: 100%;
+    border-spacing: 0;
 }
 
-table {
-	/* border: 1px solid black; */
-	border-spacing: 0;
-    margin-top: 5%;
-	/* background-color: red; */
-}
-
-td {
-    border-top: solid 1px #e6e6e6;
-	vertical-align: top;
-	padding-bottom: 3%;
-	padding-top: 3%;
-}
-
-/* table, th, td, tr { */
-/* 	border: 1px solid black; */
-/* 	border-spacing: 0; */
-/* 	vertical-align: top; */
-/* } */
-
-td {
-	/* padding-top: 3%; */
-}
-
-.project p {
-	line-height: 1.25;
+#projects p {
     margin: 0;
 }
 
+#projects td {
+    vertical-align: top;
+    padding-bottom: 4%;
+}
 
 .project-img {
+    text-align: center;
     width: 35%;
 }
 
 .project-txt {
-	/* padding-left: 1%; */
+    padding-top: 2%;
+    padding-right: 2%;
 }
-
-img {
-    max-width: 100%;
-}
-
 
 
 /* Increase font size and reduce margins for smaller windows */
