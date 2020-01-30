@@ -4,7 +4,7 @@ image: voting.png
 ---
 
 **Voting Machine Forensic Analysis**  
-[Report]({{ site.url }}/assets/forensic_report.pdf)
+[Report]({{ site.url }}/assets/forensic_report.pdf){:target="_blank"}
 
 ---
 
