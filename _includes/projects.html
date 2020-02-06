@@ -1,0 +1,13 @@
+<table id="projects">
+{% assign projects = site.projects | sort: 'order' %}
+{% for project in projects %}
+    <tr>
+      <td class="project-txt">
+        {{ project.content }}
+      </td>
+      <td class="project-img">
+        <img src ="{{ site.url }}/assets/images/{{ project.image }}">
+      </td>
+    </tr>
+{% endfor %}
+</table>

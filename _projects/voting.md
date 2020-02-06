@@ -9,8 +9,8 @@ image: voting.png
 ---
 
 Wiped voting machines can be found on online shopping platforms such as eBay,
-perhaps to recover some election costs. 
-We tore apart a used WinVote and iVotronic to write a forensic analysis report.
-We did not find any groundbreaking 
-security flaws but this phenomenon remains a concerning one.
+possibly to recover some election costs. 
+We tore apart a used WinVote and iVotronic for forensic analysis.
+Although we did not discover any groundbreaking 
+security flaws, this phenomenon remains deeply concerning.
 Covered in [UMich News](http://eecs.umich.edu/eecs/about/articles/2018/halderman-election-course.html){:target="_blank"}.
