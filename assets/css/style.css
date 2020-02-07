@@ -12,7 +12,6 @@ p,ul {
     margin-top: 0;
     color: #4d4d4d;
     font-family: 'Quicksand', Arial, sans-serif;
-    font-weight: 300;
     font-size: 1.1vw;
     line-height: 1.35;
 }
@@ -54,7 +53,6 @@ hr {
 }
 
 #header-links {
-    font-weight: 300;
     font-size: 1.25vw;
     line-height: 0.5;
 }
