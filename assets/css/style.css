@@ -12,7 +12,7 @@ p,ul {
     margin-top: 0;
     color: #4d4d4d;
     font-family: 'Quicksand', Arial, sans-serif;
-    font-size: 1.1vw;
+    font-size: 16px;
     line-height: 1.35;
 }
 
@@ -48,12 +48,12 @@ hr {
 }
 
 #header-name {
-    font-size: 2vw;
+    font-size: 28px;
     line-height: 0;
 }
 
 #header-links {
-    font-size: 1.25vw;
+    font-size: 16px;
     line-height: 0.5;
 }
 
@@ -93,7 +93,7 @@ hr {
 
 #projects td {
     vertical-align: top;
-    padding-bottom: 6%;
+    padding-bottom: 7%;
 }
 
 .project-img {
@@ -119,6 +119,12 @@ hr {
 #courses table {
     width: 100%;
     border-spacing: 0;
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        margin: 0% 25% 5% 25%;
+    }
 }
 
 /* Increase font size and reduce margins for smaller windows */
