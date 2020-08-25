@@ -133,8 +133,8 @@ hr {
         margin: 0% 10% 5% 10%;
     }
     p {
-        line-height: 1.5;
-        font-size: 3vw;
+        line-height: 1.7;
+        font-size: 3.5vw;
     }
 
     #header {
@@ -143,10 +143,12 @@ hr {
 
     #header-name {
         font-size: 5vw;
+        text-align: center;
     }
 
     #header-links {
         font-size: 3vw;
+        text-align: center;
     }
 
     #about {
