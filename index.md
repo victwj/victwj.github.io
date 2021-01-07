@@ -3,7 +3,7 @@ layout: index
 ---
 
 
-Hi! I'm a Ph.D. student in computer science at [Princeton
+Hi! I'm a graduate student in computer science at [Princeton
 University](https://www.cs.princeton.edu/){:target="_blank"}. My current
 interests are broadly in computer security/privacy, networks, and systems.
 
