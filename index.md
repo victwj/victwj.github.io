@@ -2,23 +2,24 @@
 layout: index 
 ---
 
+Hi! I received my Master's degree in computer science from Princeton University
+with full scholarship (formerly a PhD candidate), and received my Bachelor's
+degree in computer science magna cum laude from the University of Michigan. I
+pivoted from research to industry in pursuit of building products, and I
+currently work at Square.
 
-Hi! I'm a graduate student in computer science at [Princeton
-University](https://www.cs.princeton.edu/){:target="_blank"}. My current
-interests are broadly in computer security/privacy, networks, and systems.
-
-I received my B.S.E. in computer science _magna cum laude_ from the [University
-of Michigan](https://www.eecs.umich.edu/cse/){:target="_blank"}. While taking
-full-time student course loads, I worked as a research assistant at [Prof.
-Ensafi](https://ensa.fi){:target="_blank"}'s lab ([Censored Planet](https://censoredplanet.org){:target="_blank"})
-and as a teaching assistant for [EECS 183](https://eecs183.org){:target="_blank"}.
-In the past, I was a software engineering intern at [Nokia
-Deepfield](https://www.nokia.com/networks/solutions/deepfield/){:target="_blank"}
-and a research assistant at [Merit Networks](https://www.merit.edu){:target="_blank"} (mentored by [Dr.
-Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}), both in the field of
-network security.
-
-In my spare time, I watch and play a lot of badminton. I'm a sucker for
-self-improvement books, biographies, and most video games.
-My special talent is being allergic to everything floating in the air.
-I'm from [Jakarta, Indonesia](https://en.wikipedia.org/wiki/Jakarta){:target="_blank"}.
+During my academic years, I focused primarily on research and teaching. At
+Princeton, I worked with 
+[Prof. Jonathan Mayer](https://jonathanmayer.org/){:target="_blank"} 
+in the field of security/privacy/policy and briefly with 
+[Prof. Jennifer Rexford](https://www.cs.princeton.edu/~jrex/){:target="_blank"} 
+in the field of networking. At Michigan, I worked in the field of computer security with 
+[Prof. Roya Ensafi](https://ensa.fi){:target="_blank"}, 
+[Dr. Michalis Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}),
+and at
+[Nokia Deepfield](https://www.nokia.com/networks/solutions/deepfield/){:target="_blank"}.
+I really enjoy teaching and have taught about 6 semesters of Data Structures &
+Algorithms 
+([EECS 183](https://eecs183.org){:target="_blank"}, 
+[COS 226](https://www.cs.princeton.edu/courses/archive/fall20/cos226/syllabus.php){:target="_blank"}).
+I’ve been incredibly lucky to work with the most amazing mentors, colleagues, and students.
