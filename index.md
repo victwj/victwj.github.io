@@ -4,15 +4,14 @@ layout: index
 
 I'm a software engineer working on point-of-sale systems at
 [Square](https://squareup.com/us/en){:target="_blank"} ([Block,
-Inc](https://block.xyz/){:target="_blank"}), which process nearly $200 billion
-in payments annually. I received my Master's in computer science from Princeton
-University on a full scholarship (PhD candidacy) and received my Bachelor's in
-computer science _magna cum laude_ from the University of Michigan. 
+Inc](https://block.xyz/){:target="_blank"}). I received my Master's in computer
+science from Princeton University on a full scholarship (PhD candidacy) and
+received my Bachelor's in computer science _magna cum laude_ from the
+University of Michigan. 
 
-Before transitioning into software engineering, my focus was on academic
-research and teaching, mainly in the fields of computer networks, security, and
-privacy. I worked on peer-reviewed research with amazing mentors: [Dr.
-Michalis
+Before software engineering, my focus was on academic research in the fields of
+computer networks, security, and privacy. I'm very thankful to have worked with
+amazing mentors in this space: [Dr.  Michalis
 Kallitsis](http://www-personal.umich.edu/~mgkallit/){:target="_blank"}, [Prof.
 Roya Ensafi](https://ensa.fi){:target="_blank"}, [Prof. Jennifer
 Rexford](https://www.cs.princeton.edu/~jrex/){:target="_blank"}, [Prof.
